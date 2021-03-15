@@ -1,10 +1,9 @@
 @font-face {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf)
-    format("truetype");
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf) format('truetype');
 }
 * {
   margin: 0;
@@ -16,6 +15,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body {
+  background-color: #1e212d;
+}
 nav {
   position: fixed;
 }
@@ -25,11 +27,11 @@ nav ul {
   background-color: #393232;
   height: 100vh;
   justify-content: space-between;
-  width: 16rem;
+  width: 20rem;
+  width: 100%;
   user-select: none;
 }
 nav ul li {
-  width: 100%;
   padding: 1.5rem 2.9rem;
   font-size: 1.4rem;
   font-family: "Lato", sans-serif;
@@ -37,7 +39,7 @@ nav ul li {
   transition: all 0.2s ease;
 }
 nav ul li:first-child {
-  background-color: #26001b;
+  background-color: #433d3c;
   padding-left: 5rem;
   font-weight: bold;
 }
@@ -52,4 +54,5 @@ nav ul li i {
 #container {
   margin-left: 16rem;
   padding-left: 3rem;
+  margin-right: 4rem;
 }

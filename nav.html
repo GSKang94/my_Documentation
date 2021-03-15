@@ -1,16 +1,26 @@
 <nav>
   <ul>
-    <li onclick="homeMd()">Home</li>
-    <li onclick="htmlMd()"><i class="devicon-html5-plain"></i> HTML</li>
-    <li onclick="cssMd()"><i class="devicon-css3-plain"></i> CSS</li>
-    <li onclick="jsMd()">
+    <li onclick="render()">Home</li>
+    <li onclick="render('HTML','test')">
+      <i class="devicon-html5-plain"></i> HTML
+    </li>
+    <li onclick="render('CSS')"><i class="devicon-css3-plain"></i> CSS</li>
+    <li onclick="render('JavaScript')">
       <i class="devicon-javascript-plain"></i> JavaScript
     </li>
-    <li onclick="gitMD()"><i class="devicon-git-plain"></i> Git</li>
-    <li onclick="bsMd()"><i class="devicon-bootstrap-plain"></i> Bootstrap</li>
-    <li onclick="beMd()"><i class="devicon-nodejs-plain"></i> Backend</li>
-    <li onclick="reactMd()"><i class="devicon-react-original"></i> React</li>
-    <li onclick="termMd()"><i class="devicon-bash-plain"></i> Terminal</li>
-    <li onclick="miscMd()"><i class="devicon-debian-plain"></i> Misc</li>
+    <li onclick="render('Git')"><i class="devicon-git-plain"></i> Git</li>
+    <li onclick="render('Bootstrap')">
+      <i class="devicon-bootstrap-plain"></i> Bootstrap
+    </li>
+    <li onclick="render('Backend')">
+      <i class="devicon-nodejs-plain"></i> Backend
+    </li>
+    <li onclick="render('React')">
+      <i class="devicon-react-original"></i> React
+    </li>
+    <li onclick="render('Terminal')">
+      <i class="devicon-bash-plain"></i> Terminal
+    </li>
+    <li onclick="render('misc')"><i class="devicon-debian-plain"></i> Misc</li>
   </ul>
 </nav>
