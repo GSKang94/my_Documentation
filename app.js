@@ -11,5 +11,14 @@ let render = (file) => {
     </template>
   </zero-md>
   `;
+
+  main.animate(
+    [
+      { opacity: 0, easing: "ease-in" },
+      { opacity: 1, easing: "ease-out" },
+    ],
+    500
+  );
+
   container.appendChild(main);
 };
