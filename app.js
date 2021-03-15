@@ -5,9 +5,9 @@ let render = (file) => {
 
   container.innerHTML = "";
   main.innerHTML = `
-  <zero-md src='/notes/${file}.md'>
+  <zero-md src='assets/notes/${file}.md'>
     <template>
-         <link rel="stylesheet" href="theme.css">
+         <link rel="stylesheet" href="/assets/theme.css">
     </template>
   </zero-md>
   `;
