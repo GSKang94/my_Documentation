@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="assets/script.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
@@ -13,12 +12,56 @@
     <title>Tech-Docs</title>
   </head>
   <body>
-    <div data-include="assets/nav.html"></div>
+    <!-- <div data-include="assets/nav.html"></div> -->
+    <nav>
+      <ul>
+        <li onclick="render()"><span class="li-text">Home</span></li>
+        <li onclick="render('HTML')">
+          <i class="devicon-html5-plain"></i><span class="li-text">HTML</span>
+        </li>
+        <li onclick="render('CSS')">
+          <i class="devicon-css3-plain"></i><span class="li-text">CSS</span>
+        </li>
+        <li onclick="render('JavaScript')">
+          <i class="devicon-javascript-plain"></i
+          ><span class="li-text">JavaScript</span>
+        </li>
+        <li onclick="render('Git')">
+          <i class="devicon-git-plain"></i><span class="li-text">Git</span>
+        </li>
+        <li onclick="render('Bootstrap')">
+          <i class="devicon-bootstrap-plain"></i
+          ><span class="li-text">Bootstrap</span>
+        </li>
+        <li onclick="render('Backend')">
+          <i class="devicon-nodejs-plain"></i
+          ><span class="li-text">Backend</span>
+        </li>
+        <li onclick="render('React')">
+          <i class="devicon-react-original"></i
+          ><span class="li-text">React</span>
+        </li>
+        <li onclick="render('Terminal')">
+          <i class="devicon-bash-plain"></i
+          ><span class="li-text">Terminal</span>
+        </li>
+        <li onclick="render('misc')">
+          <i class="devicon-debian-plain"></i><span class="li-text">Misc</span>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="ham-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
     <div id="container"></div>
   </body>
-  <script src="app.js"></script>
+
   <script
     type="module"
     src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
   ></script>
 </html>
+<script src="app.js"></script>

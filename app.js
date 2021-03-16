@@ -12,13 +12,20 @@ let render = (file) => {
   </zero-md>
   `;
 
-  main.animate(
-    [
-      { opacity: 0, easing: "ease-in" },
-      { opacity: 1, easing: "ease-out" },
-    ],
-    500
-  );
+  main.animate([{ opacity: 0 }, { opacity: 1 }], 600);
 
   container.appendChild(main);
 };
+
+let navLinks = document.querySelector("ul");
+const links = document.querySelectorAll("li");
+// let hamburger = document.getElementById("ham-burger");
+// console.log(links.length);
+// hamburger.addEventListener("click", () => {
+//   navLinks.classList.toggle("display");
+// });
+// links.forEach((li) => {
+//   li.addEventListener("click", () => {
+//     li.style.backgroundColor = "";
+//   });
+// });
