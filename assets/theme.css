@@ -136,3 +136,9 @@ pre[class*="language-"] {
     font-size: 0.9em;
   }
 }
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .markdown-body {
+    font-size: 1.1em;
+  }
+}

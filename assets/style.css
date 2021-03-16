@@ -10,8 +10,6 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -29,14 +27,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 #home-svg {
+  -webkit-filter: invert(100%);
   filter: invert(100%);
-  width: 2.5rem;
   height: 2.5rem;
+  display: none;
   margin: 0 auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   #home-svg {
-    display: none;
+    display: block;
   }
 }
 nav {
@@ -53,15 +52,18 @@ nav {
     z-index: 1;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   nav {
-    width: 8rem;
+    width: 5rem;
   }
 }
 nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   height: 100%;
 }
@@ -71,7 +73,7 @@ nav ul {
     overflow: scroll;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   nav ul {
     overflow: hidden;
   }
@@ -95,7 +97,7 @@ nav ul li {
     font-size: 1.4rem;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   nav ul li {
     padding-left: 0;
     font-size: 2.2rem;
@@ -104,24 +106,30 @@ nav ul li {
   }
 }
 nav ul li:first-child {
+  -webkit-filter: saturate(300%);
   filter: saturate(300%);
+  font-size: 1.3rem;
   padding-left: 6rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  height: 50%;
+  border-top: 1px solid #f2edd7;
+  border-bottom: 1px solid #f2edd7;
 }
-@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
   nav ul li:first-child {
     padding-left: 0;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   nav ul li:first-child {
     padding-right: 1rem;
   }
 }
 nav ul li:first-child:hover {
   background-color: #393232;
+  color: #f2edd7;
 }
 nav ul li:hover {
   background-color: #f2edd7;
@@ -156,7 +164,7 @@ nav ul li i {
     z-index: 0;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   #container {
     margin-left: 8rem;
   }
@@ -174,7 +182,7 @@ nav ul li i {
   width: 30px;
   margin: 4px 1px;
 }
-@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
   .li-text {
     display: none;
   }
