@@ -29,15 +29,15 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 };
 
-// let home=()=>{
-//   container.innerHTML=''
-//   let home = document.createElement("div");
-// home.innerHTML=`
-// <div id="home">
-// <h1>my</h1>
-// </div>
-// `
-// }
+let home = () => {
+  container.innerHTML = "";
+  let home = document.createElement("div");
+  home.innerHTML = `
+<div id="home">
+<h1>my</h1>
+</div>
+`;
+};
 
 // let navLinks = document.querySelector("ul");
 // const links = document.querySelectorAll("li");
