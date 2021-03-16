@@ -1,6 +1,6 @@
 .markdown-body {
   font-size: 1.4em;
-  color: #f4f4f4;
+  color: #f2edd7;
 }
 
 span.token.operator {
@@ -131,8 +131,8 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .markdown-body {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
 }

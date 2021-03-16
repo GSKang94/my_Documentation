@@ -17,8 +17,18 @@ let render = (file) => {
   container.appendChild(main);
 };
 
-let navLinks = document.querySelector("ul");
-const links = document.querySelectorAll("li");
+// let home=()=>{
+//   container.innerHTML=''
+//   let home = document.createElement("div");
+// home.innerHTML=`
+// <div id="home">
+// <h1>my</h1>
+// </div>
+// `
+// }
+
+// let navLinks = document.querySelector("ul");
+// const links = document.querySelectorAll("li");
 // let hamburger = document.getElementById("ham-burger");
 // console.log(links.length);
 // hamburger.addEventListener("click", () => {

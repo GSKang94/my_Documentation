@@ -1,10 +1,9 @@
 @font-face {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf)
-    format("truetype");
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf) format('truetype');
 }
 * {
   margin: 0;
@@ -26,14 +25,21 @@ body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #f2edd7;
-  outline: 1px solid slategrey;
+  background-color: #393232;
+  border-radius: 5px;
 }
 nav {
   position: fixed;
   height: 100vh;
   width: 20rem;
   background-color: #393232;
+}
+@media only screen and (max-width: 480px) {
+  nav {
+    height: 8vh;
+    width: 100%;
+    z-index: 1;
+  }
 }
 nav ul {
   display: flex;
@@ -42,38 +48,75 @@ nav ul {
   user-select: none;
   height: 100%;
 }
+@media only screen and (max-width: 480px) {
+  nav ul {
+    flex-direction: row;
+    overflow: scroll;
+  }
+}
 nav ul li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 4rem;
   height: 100%;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
   font-family: "Lato", sans-serif;
   color: #f2edd7;
+  background-color: #393232;
   transition: all 0.2s ease;
 }
-nav ul li:first-child {
-  background-color: #dccd85;
-  color: #393232;
-  font-weight: bold;
-  text-align: center;
+@media only screen and (max-width: 480px) {
+  nav ul li {
+    padding-left: 0;
+    margin-left: 0.4rem;
+    font-size: 1.4rem;
+  }
 }
-nav ul li:first-child:hover {
-  background-color: #dccd85;
+nav ul li:first-child {
+  filter: saturate(300%);
+  padding-left: 6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+@media only screen and (max-width: 480px) {
+  nav ul li:first-child {
+    padding-left: 0;
+  }
 }
 nav ul li:hover {
   background-color: #f2edd7;
   color: #393232;
   cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
+  nav ul li:hover {
+    background-color: transparent;
+    color: #f2edd7;
+    transform: scale(1.3);
+  }
+}
 nav ul li i {
   padding-right: 1rem;
+}
+@media only screen and (max-width: 480px) {
+  nav ul li i {
+    padding: 0.3;
+  }
 }
 #container {
   margin-left: 20rem;
   padding-left: 3rem;
   padding-right: 4rem;
+}
+@media only screen and (max-width: 480px) {
+  #container {
+    margin-left: 0;
+    padding: 3rem 1.5rem;
+    z-index: 0;
+  }
 }
 #ham-burger {
   display: none;
@@ -88,35 +131,8 @@ nav ul li i {
   width: 30px;
   margin: 4px 1px;
 }
-@media only screen and (max-width: 700px) {
-  nav {
-    height: 8vh;
-    width: 100%;
-    z-index: 1;
-  }
-  nav ul {
-    flex-direction: row;
-    overflow: scroll;
-  }
-  nav ul li {
-    padding-left: 0;
-    margin-left: 0.4rem;
-    font-size: 1.4rem;
-  }
-  nav ul li:hover {
-    background-color: transparent;
-    color: #f2edd7;
-    transform: scale(1.3);
-  }
+@media only screen and (max-width: 480px) {
   .li-text {
     display: none;
-  }
-  nav ul li i {
-    padding: 0.3;
-  }
-  #container {
-    margin-left: 0;
-    padding: 3rem 1.5rem;
-    z-index: 0;
   }
 }
