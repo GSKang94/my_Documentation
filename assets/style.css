@@ -33,6 +33,7 @@ nav {
   height: 100vh;
   width: 20rem;
   background-color: #393232;
+  transition: top 0.3s ease-out;
 }
 @media only screen and (max-width: 480px) {
   nav {
@@ -56,7 +57,6 @@ nav ul {
 }
 nav ul li {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   padding-left: 4rem;
   height: 100%;
@@ -90,6 +90,7 @@ nav ul li:hover {
   background-color: #f2edd7;
   color: #393232;
   cursor: pointer;
+  font-weight: bold;
 }
 @media only screen and (max-width: 480px) {
   nav ul li:hover {
@@ -103,7 +104,7 @@ nav ul li i {
 }
 @media only screen and (max-width: 480px) {
   nav ul li i {
-    padding: 0.3;
+    padding: 0.6rem;
   }
 }
 #container {

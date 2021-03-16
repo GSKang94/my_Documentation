@@ -12,9 +12,21 @@ let render = (file) => {
   </zero-md>
   `;
 
-  main.animate([{ opacity: 0 }, { opacity: 1 }], 600);
+  main.animate([{ opacity: 0 }, { opacity: 1 }], 500);
 
   container.appendChild(main);
+};
+
+// Hide nav on scroll
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector("nav").style.top = "0";
+  } else {
+    document.querySelector("nav").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
 };
 
 // let home=()=>{

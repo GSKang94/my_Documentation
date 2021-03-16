@@ -38,6 +38,7 @@ nav {
   height: 100vh;
   width: 20rem;
   background-color: @primary-clr;
+  transition: top 0.3s ease-out;
   @media @phone {
     height: 8vh;
     width: 100%;
@@ -56,7 +57,6 @@ nav {
     }
     li {
       display: flex;
-      justify-content: flex-start;
       align-items: center;
       padding-left: 4rem;
       height: 100%;
@@ -66,6 +66,7 @@ nav {
       color: @secondary-clr;
       background-color: @primary-clr;
       transition: all 0.2s ease;
+
       @media @phone {
         padding-left: 0;
         margin-left: 0.4rem;
@@ -85,6 +86,8 @@ nav {
         background-color: @secondary-clr;
         color: @primary-clr;
         cursor: pointer;
+        font-weight: bold;
+
         @media @phone {
           background-color: transparent;
           color: @secondary-clr;
@@ -94,7 +97,7 @@ nav {
       i {
         padding-right: 1rem;
         @media @phone {
-          padding: 0.3;
+          padding: 0.6rem;
         }
       }
     }
