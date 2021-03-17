@@ -30,7 +30,7 @@ nav {
   position: fixed;
   height: 100vh;
   width: 18rem;
-  background-color: #393232;
+  background-color: rgba(57, 50, 50, 0.5);
   transition: top 0.3s ease-out;
 }
 @media only screen and (max-width: 480px) {
@@ -75,7 +75,6 @@ nav ul li {
   letter-spacing: 0.1rem;
   font-family: "Lato", sans-serif;
   color: #f2edd7;
-  background-color: #393232;
   transition: all 0.2s ease;
 }
 @media only screen and (max-width: 480px) {
@@ -95,7 +94,7 @@ nav ul li {
 }
 nav ul li:first-child {
   -webkit-filter: saturate(300%);
-  filter: saturate(300%);
+  filter: saturate(100%);
   font-size: 1.3rem;
   padding-left: 6rem;
   font-weight: bold;

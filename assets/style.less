@@ -35,7 +35,7 @@ nav {
   position: fixed;
   height: 100vh;
   width: 18rem;
-  background-color: @primary-clr;
+  background-color: rgba(57, 50, 50, 0.5);
   transition: top 0.3s ease-out;
   @media @phone {
     height: 8vh;
@@ -71,7 +71,7 @@ nav {
       letter-spacing: 0.1rem;
       font-family: "Lato", sans-serif;
       color: @secondary-clr;
-      background-color: @primary-clr;
+      // background-color: @primary-clr;
       transition: all 0.2s ease;
 
       @media @phone {
@@ -87,7 +87,7 @@ nav {
       }
       &:first-child {
         -webkit-filter: saturate(300%);
-        filter: saturate(300%);
+        filter: saturate(100%);
         font-size: 1.3rem;
         padding-left: 6rem;
         font-weight: bold;
@@ -152,9 +152,6 @@ nav {
 }
 
 .active {
-  // background-color: @secondary-clr;
-  // color: @primary-clr;
-  // box-shadow: 1px 1px 5px @secondary-clr inset;
   background-color: #1e212c;
   pointer-events: none;
   font-weight: bold;
