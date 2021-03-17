@@ -75,9 +75,9 @@ Video not supported <!-- in case browser fail to play the video-->
 * **href** means Hyperlink Reference.
 * target values=_blank(new window or tab>
 *  **N.B** Always add rel=”noopener noreferrer”
-                  _self( open in same frame)
-                         _parent( open in parent frame)
-                         _top( open in full body of windows)
+        _self( open in same frame)
+        _parent( open in parent frame)
+         _top( open in full body of windows)
 
 
 ## anchoring to relative page
@@ -391,8 +391,8 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NDMxNDYxLC04MTk3OTg2ODAsLTEwMz
-c4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4NjU5LDQ1MjEyNzQ4
-MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMTc5NjU0ODA5MCwzNz
-gzOTc5NjZdfQ==
+eyJoaXN0b3J5IjpbMTI3MjA5NzUwNywtODE5Nzk4NjgwLC0xMD
+M3ODM1NTUyLC00NzU1MzM4NjYsMjA3Mjg2ODY1OSw0NTIxMjc0
+ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgwOTAsMz
+c4Mzk3OTY2XX0=
 -->
