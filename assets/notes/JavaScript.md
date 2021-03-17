@@ -460,8 +460,6 @@ A function is a reusable  block that groups together a sequence of statements to
 
 Parameters act as a placeholder text.
 
-
-
 ![JavaScript syntax for invoking a function with arguments as values](https://s3.amazonaws.com/codecademy-content/courses/learn-javascript-functions/Diagram/by_value.svg)
 
 ## Default Parameters
@@ -1807,7 +1805,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjcyOTE5NywzNzkwOTI4NzAsMTEzOD
+eyJoaXN0b3J5IjpbLTEwMDc2NTM4NSwzNzkwOTI4NzAsMTEzOD
 Y4MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1
 NCwtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOT
 A4MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1
