@@ -46,7 +46,7 @@ gzip on;
 ```
 
 * Enable http2
-``js
+```js
     listen [::]:443 http2 
     listen 443 http2
 ```
@@ -186,8 +186,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg4MzUxMTcsNjAzMjQ5NjUwLDE2Mj
-cyMTcyMzgsMTM1NzUyNDA1NCwtMTEwNTQ0ODE2MywtNjY5Nzk3
-NzU5LDIwNzQzMjM3NjgsMTAzMDAzOTMxNSwyMDcwNjc3MjI0LD
-Q4OTYwMDYyNF19
+eyJoaXN0b3J5IjpbMTIyOTI4MTQ4MSw2MDMyNDk2NTAsMTYyNz
+IxNzIzOCwxMzU3NTI0MDU0LC0xMTA1NDQ4MTYzLC02Njk3OTc3
+NTksMjA3NDMyMzc2OCwxMDMwMDM5MzE1LDIwNzA2NzcyMjQsND
+g5NjAwNjI0XX0=
 -->
