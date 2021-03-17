@@ -22,7 +22,9 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 ## Tips
 
 * Disable chrome autocomplete
-`<input autocomplete="off">`
+```html 
+<input autocomplete="off">
+```
 
 ## `<small>` tag
 
@@ -389,7 +391,8 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTc5ODY4MCwtMTAzNzgzNTU1MiwtND
-c1NTMzODY2LDIwNzI4Njg2NTksNDUyMTI3NDgzLDIwNjg1ODc4
-ODksODA2OTU3ODE5LC0xNzk2NTQ4MDkwLDM3ODM5Nzk2Nl19
+eyJoaXN0b3J5IjpbLTM3OTY0NzU0MSwtODE5Nzk4NjgwLC0xMD
+M3ODM1NTUyLC00NzU1MzM4NjYsMjA3Mjg2ODY1OSw0NTIxMjc0
+ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgwOTAsMz
+c4Mzk3OTY2XX0=
 -->
