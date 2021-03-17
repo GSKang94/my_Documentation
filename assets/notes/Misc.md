@@ -1,9 +1,9 @@
 ## Nginx
 * To test errors in config
- ```sudo nginx -t```
+ `sudo nginx -t`
  
  * Restart server
- ```sudo service nginx restart```
+ `sudo service nginx restart`
  
  * If failed to start nginx service
   ```
@@ -46,7 +46,7 @@ gzip on;
 ```
 
 * Enable http2
-```
+``js
     listen [::]:443 http2 
     listen 443 http2
 ```
@@ -186,7 +186,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMjQ5NjUwLDE2MjcyMTcyMzgsMTM1Nz
-UyNDA1NCwtMTEwNTQ0ODE2MywtNjY5Nzk3NzU5LDIwNzQzMjM3
-NjgsMTAzMDAzOTMxNSwyMDcwNjc3MjI0LDQ4OTYwMDYyNF19
+eyJoaXN0b3J5IjpbLTE0MTg4MzUxMTcsNjAzMjQ5NjUwLDE2Mj
+cyMTcyMzgsMTM1NzUyNDA1NCwtMTEwNTQ0ODE2MywtNjY5Nzk3
+NzU5LDIwNzQzMjM3NjgsMTAzMDAzOTMxNSwyMDcwNjc3MjI0LD
+Q4OTYwMDYyNF19
 -->
