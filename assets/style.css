@@ -35,6 +35,7 @@ nav {
   width: 18rem;
   background-color: rgba(57, 50, 50, 0.5);
   transition: top 0.3s ease-out;
+  z-index: 1;
 }
 @media only screen and (max-width: 480px) {
   nav {
@@ -98,8 +99,9 @@ nav ul li {
 nav ul li:first-child {
   -webkit-filter: saturate(300%);
   filter: saturate(100%);
+  pointer-events: none;
   font-size: 1.3rem;
-  padding-left: 6rem;
+  padding-left: 5rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -176,4 +178,80 @@ nav ul #home-svg {
   .li-text {
     display: none;
   }
+}
+#home {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  padding: 2rem 0 0 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  #home {
+    padding-left: 7rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #home {
+    padding-left: 1rem;
+  }
+}
+#home h2 {
+  padding: 2.3rem 0 1rem 0;
+}
+#home p {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+}
+@media only screen and (max-width: 480px) {
+  #home p {
+    font-size: 1rem;
+  }
+}
+#home ul {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 480px) {
+  #home ul {
+    width: 100%;
+    justify-content: unset;
+  }
+}
+#home ul li {
+  padding: 1rem;
+  width: 20%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  #home ul li {
+    width: 50%;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  #home ul li {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+}
+#home ul li img {
+  width: 1.5rem;
+  vertical-align: middle;
+  filter: saturate(100%);
+  margin-right: 0.4rem;
+}
+#home ul li a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+#home ul li .invert {
+  filter: invert(100%);
 }

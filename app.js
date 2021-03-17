@@ -1,4 +1,4 @@
-const links = document.querySelectorAll("li");
+const links = document.querySelectorAll("nav ul li");
 
 links.forEach((li) => {
   li.addEventListener("click", () => {
@@ -14,6 +14,8 @@ links.forEach((li) => {
     let main = document.createElement("div");
     let liInnerText = li.textContent.replace(/\s{2,}/g, " ").trim();
     let container = document.getElementById("container");
+    let home = document.getElementById("home");
+    home.innerHTML = "";
     container.innerHTML = "";
     main.innerHTML = `
       <zero-md src='assets/notes/${liInnerText}.md'>
@@ -29,6 +31,7 @@ links.forEach((li) => {
     container.appendChild(main);
   });
 });
+
 let navBar = document.querySelector("body nav");
 // Hide nav on scroll on mobile
 let phoneSize = window.matchMedia("(max-width: 480px)");
