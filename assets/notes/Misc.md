@@ -21,14 +21,14 @@ server_name [example.com](http://example.com/) www.example.com;
 ```
 
 * Ports to forward:  
-```
+```js
 80 for http  
 443 for https (Lets encrypt)  
 51820 for pivpn (wireguard)
 ```
 
 * Client-side caching
-```
+```js
 # after location block
 location ~* \.(jpg|jpeg|png|gif|ico)$ {
        expires 30d;
@@ -186,8 +186,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTI4MTQ4MSw2MDMyNDk2NTAsMTYyNz
-IxNzIzOCwxMzU3NTI0MDU0LC0xMTA1NDQ4MTYzLC02Njk3OTc3
-NTksMjA3NDMyMzc2OCwxMDMwMDM5MzE1LDIwNzA2NzcyMjQsND
-g5NjAwNjI0XX0=
+eyJoaXN0b3J5IjpbODI4MzI2Njk3LDYwMzI0OTY1MCwxNjI3Mj
+E3MjM4LDEzNTc1MjQwNTQsLTExMDU0NDgxNjMsLTY2OTc5Nzc1
+OSwyMDc0MzIzNzY4LDEwMzAwMzkzMTUsMjA3MDY3NzIyNCw0OD
+k2MDA2MjRdfQ==
 -->
