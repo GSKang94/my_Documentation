@@ -38,8 +38,8 @@ location ~* \.(jpg|jpeg|png|gif|ico)$ {
     }
 ```
 * Enable gzip compression
-```
 
+```
 gzip on;
    gzip_types application/javascript image/* text/css;
    gunzip on;
@@ -186,7 +186,7 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzIxNzIzOCwxMzU3NTI0MDU0LC0xMT
-A1NDQ4MTYzLC02Njk3OTc3NTksMjA3NDMyMzc2OCwxMDMwMDM5
-MzE1LDIwNzA2NzcyMjQsNDg5NjAwNjI0XX0=
+eyJoaXN0b3J5IjpbNjAzMjQ5NjUwLDE2MjcyMTcyMzgsMTM1Nz
+UyNDA1NCwtMTEwNTQ0ODE2MywtNjY5Nzk3NzU5LDIwNzQzMjM3
+NjgsMTAzMDAzOTMxNSwyMDcwNjc3MjI0LDQ4OTYwMDYyNF19
 -->
