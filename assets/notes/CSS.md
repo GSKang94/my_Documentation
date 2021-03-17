@@ -137,11 +137,12 @@ input::-webkit-inner-spin-button {
 ## Link element
 - used to link HTML with CSS
 - Must be placed inside head tag of HTML
+```css
     <link
     href="link to .css file"
     type="text/css"
     rel="stylesheet">
-
+```
 
 ## px,em and rem
 
@@ -975,9 +976,10 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDg5ODczMywxMDQ0NjM5OTMzLC0xMz
-c0Mjc2ODc0LC00MzIxNjg1NjUsMTA1MTE4MDkyOSwtNzgwODkx
-MTU5LC03ODA4OTExNTksLTIwMzM4NDMxNzYsMTYzMTUzNDE1MC
-wtMzczMDU4MzI0LC0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0x
-NjU1MzAwMzAxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbMTUxNjE5MjA5OCwxMjQwODk4NzMzLDEwND
+Q2Mzk5MzMsLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMDUxMTgw
+OTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0MzE3Ni
+wxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2
+MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OT
+EwNjZdfQ==
 -->
