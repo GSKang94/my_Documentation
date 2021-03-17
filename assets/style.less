@@ -31,20 +31,10 @@ body {
 @mid: ~"only screen and (min-width: 480px) and (max-width: 1024px)";
 @phone: ~"only screen and (max-width: 480px)";
 
-#home-svg {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  height: 2.5rem;
-  display: none;
-  margin: 0 auto;
-  @media @mid {
-    display: block;
-  }
-}
 nav {
   position: fixed;
   height: 100vh;
-  width: 20rem;
+  width: 18rem;
   background-color: @primary-clr;
   transition: top 0.3s ease-out;
   @media @phone {
@@ -109,9 +99,6 @@ nav {
         @media @phone, @mid {
           padding-left: 0;
         }
-        @media @mid {
-          padding-right: 1rem;
-        }
         &:hover {
           background-color: @primary-clr;
           color: @secondary-clr;
@@ -131,26 +118,46 @@ nav {
       }
       i {
         padding-right: 1rem;
-        @media @phone {
+        @media @phone, @mid {
           padding: 0.6rem;
         }
+      }
+    }
+    #home-svg {
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+      height: 2.5rem;
+      display: none;
+      margin: 0 auto;
+      @media @mid {
+        display: block;
+        margin: 0.5rem 0;
       }
     }
   }
 }
 
 #container {
-  margin-left: 20rem;
-  padding-left: 3rem;
-  padding-right: 4rem;
+  margin-left: 18rem;
+  padding: 0 4rem 0 3rem;
   @media @phone {
     margin-left: 0;
     padding: 3rem 1.5rem;
     z-index: 0;
   }
   @media @mid {
-    margin-left: 8rem;
+    margin-left: 5rem;
+    padding: 0 1rem 0 1rem;
   }
+}
+
+.active {
+  // background-color: @secondary-clr;
+  // color: @primary-clr;
+  // box-shadow: 1px 1px 5px @secondary-clr inset;
+  background-color: #1e212c;
+  pointer-events: none;
+  font-weight: bold;
 }
 
 #ham-burger {
