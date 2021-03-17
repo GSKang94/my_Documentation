@@ -39,7 +39,7 @@ Component.defaultProps = {
 
 ## Simple component
 
-```react
+```jsx
 class  extends React.Component{
     render(){
         return(
@@ -51,7 +51,7 @@ class  extends React.Component{
 }
 ```
 
-```react
+```jsx
 ReactDOM.render(App,document.getElementById('root'));
 ```
 
@@ -65,7 +65,7 @@ npm install react-scnpm install react-scripts@latestripts@latest
 
  Type-checking features to verify that components receive props of the correct type.
 
-```react
+```jsx
 MyComponent.propTypes = { 
     handleClick: PropTypes.func.isRequired 
 }
@@ -152,3 +152,6 @@ handleChange(event) {
 <p>{this.state.input}</p>
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNzkxNTE4NzhdfQ==
+-->
