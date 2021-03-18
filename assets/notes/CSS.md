@@ -929,13 +929,14 @@ This means, when the device is screen, and the max screen width is 480px, only t
 
 ```css
                                  CHEATSHEET
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-    code
-  }
+@desktop: ~"only screen and (min-width: 1024px) and (max-width: 1280px)";
 
-@media only screen and (min-width: 479px) and (max-width: 979px) {
-   code
-}
+@tablet: ~"only screen and (min-width: 768px) and (max-width: 1024px)";
+
+@mid: ~"only screen and (min-width: 480px) and (max-width: 1024px)";
+
+@phone: ~"only screen and (max-width: 480px)";
+
 ```
 
 
@@ -976,10 +977,10 @@ div:first-of-type {
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjE5MjA5OCwxMjQwODk4NzMzLDEwND
-Q2Mzk5MzMsLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMDUxMTgw
-OTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0MzE3Ni
-wxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMTUsLTE2
-MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0xMjk4OT
-EwNjZdfQ==
+eyJoaXN0b3J5IjpbNDEzMzEzMDcwLDE1MTYxOTIwOTgsMTI0MD
+g5ODczMywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00MzIxNjg1
+NjUsMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTExNTksLT
+IwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMDE3
+NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMxNT
+Y0MywtMTI5ODkxMDY2XX0=
 -->
