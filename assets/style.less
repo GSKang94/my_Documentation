@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,7 @@
 }
 body {
   background-color: #1e212d;
+  font-family: "Lato", sans-serif;
 
   &::-webkit-scrollbar {
     width: 1em;
@@ -72,7 +74,7 @@ nav {
       height: 100%;
       font-size: 1.7rem;
       letter-spacing: 0.1rem;
-      font-family: "Lato", sans-serif;
+
       color: @secondary-clr;
       // background-color: @primary-clr;
       transition: all 0.2s ease;
@@ -89,16 +91,15 @@ nav {
         justify-content: center;
       }
       &:first-child {
+        background-color: rgba(57, 50, 50, 1);
         -webkit-filter: saturate(300%);
         filter: saturate(100%);
-        // pointer-events: none;
         font-size: 1.3rem;
-        padding-left: 5rem;
+        padding-left: 6rem;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
         height: 50%;
-        border-top: 1px solid @secondary-clr;
         border-bottom: 1px solid @secondary-clr;
         @media @phone, @mid {
           padding-left: 0;
@@ -176,20 +177,37 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   @media @mid {
     padding-left: 7rem;
   }
   @media @phone {
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
+  h1 {
+    margin-bottom: 1.8rem;
+    font-size: 2.2rem;
 
+    @media @mid {
+      margin-bottom: 1.5rem;
+    }
+    @media @phone {
+      padding-top: 2.3rem;
+      margin-bottom: 0.7rem;
+    }
+  }
+  h1,
+  h2 {
+    font-family: "Syne Mono", monospace;
+    letter-spacing: 0.2rem;
+  }
   h2 {
     padding: 2.3rem 0 1rem 0;
   }
   p {
     font-size: 1.2rem;
     padding-right: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     @media @phone {
       font-size: 1rem;
     }
@@ -197,22 +215,22 @@ nav {
   ul {
     display: flex;
     width: 90%;
-    justify-content: space-between;
+    height: 100%;
     flex-wrap: wrap;
 
     @media @phone {
       width: 100%;
-
-      justify-content: unset;
     }
+
     li {
+      display: flex;
       padding: 1rem;
       width: 20%;
       font-size: 1.5rem;
       cursor: pointer;
       @media @phone {
         width: 50%;
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
       @media @mid {
         width: 50%;
@@ -221,6 +239,7 @@ nav {
       img {
         width: 1.5rem;
         vertical-align: middle;
+        -webkit-filter: saturate(100%);
         filter: saturate(100%);
         margin-right: 0.4rem;
       }
@@ -233,6 +252,7 @@ nav {
         outline: none;
       }
       .invert {
+        -webkit-filter: invert(100%);
         filter: invert(100%);
       }
     }

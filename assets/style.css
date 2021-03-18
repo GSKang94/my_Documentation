@@ -5,6 +5,13 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Syne Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/synemono/v3/@CgsKCVN5bmUgTW9ubyAA.ttf) format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +22,7 @@
 }
 body {
   background-color: #1e212d;
+  font-family: "Lato", sans-serif;
 }
 body::-webkit-scrollbar {
   width: 1em;
@@ -77,7 +85,6 @@ nav ul li {
   height: 100%;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
-  font-family: "Lato", sans-serif;
   color: #f2edd7;
   transition: all 0.2s ease;
 }
@@ -97,15 +104,15 @@ nav ul li {
   }
 }
 nav ul li:first-child {
+  background-color: #393232;
   -webkit-filter: saturate(300%);
   filter: saturate(100%);
   font-size: 1.3rem;
-  padding-left: 5rem;
+  padding-left: 6rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   height: 50%;
-  border-top: 1px solid #f2edd7;
   border-bottom: 1px solid #f2edd7;
 }
 @media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
@@ -187,6 +194,7 @@ nav ul #home-svg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   #home {
@@ -195,8 +203,28 @@ nav ul #home-svg {
 }
 @media only screen and (max-width: 480px) {
   #home {
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
+}
+#home h1 {
+  margin-bottom: 1.8rem;
+  font-size: 2.2rem;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  #home h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #home h1 {
+    padding-top: 2.3rem;
+    margin-bottom: 0.7rem;
+  }
+}
+#home h1,
+#home h2 {
+  font-family: "Syne Mono", monospace;
+  letter-spacing: 0.2rem;
 }
 #home h2 {
   padding: 2.3rem 0 1rem 0;
@@ -204,7 +232,7 @@ nav ul #home-svg {
 #home p {
   font-size: 1.2rem;
   padding-right: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 @media only screen and (max-width: 480px) {
   #home p {
@@ -214,16 +242,16 @@ nav ul #home-svg {
 #home ul {
   display: flex;
   width: 90%;
-  justify-content: space-between;
+  height: 100%;
   flex-wrap: wrap;
 }
 @media only screen and (max-width: 480px) {
   #home ul {
     width: 100%;
-    justify-content: unset;
   }
 }
 #home ul li {
+  display: flex;
   padding: 1rem;
   width: 20%;
   font-size: 1.5rem;
@@ -232,7 +260,7 @@ nav ul #home-svg {
 @media only screen and (max-width: 480px) {
   #home ul li {
     width: 50%;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
@@ -244,6 +272,7 @@ nav ul #home-svg {
 #home ul li img {
   width: 1.5rem;
   vertical-align: middle;
+  -webkit-filter: saturate(100%);
   filter: saturate(100%);
   margin-right: 0.4rem;
 }
@@ -256,5 +285,6 @@ nav ul #home-svg {
   outline: none;
 }
 #home ul li .invert {
+  -webkit-filter: invert(100%);
   filter: invert(100%);
 }

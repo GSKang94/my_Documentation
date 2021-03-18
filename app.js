@@ -15,14 +15,18 @@ links.forEach((li) => {
     let liInnerText = li.textContent.replace(/\s{2,}/g, " ").trim();
     let container = document.getElementById("container");
     document.getElementById("home").style.display = "none";
-    container.innerHTML = "";
-    main.innerHTML = `
+    if (liInnerText !== "Home") {
+      container.innerHTML = "";
+      main.innerHTML = `
       <zero-md src='assets/notes/${liInnerText}.md'>
         <template>
              <link rel="stylesheet" href="assets/theme.css">
         </template>
       </zero-md>
       `;
+    } else {
+      window.location.reload();
+    }
 
     // fade effect on page change
     main.animate([{ opacity: 0 }, { opacity: 1 }], 500);
