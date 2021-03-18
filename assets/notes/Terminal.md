@@ -1,6 +1,6 @@
 # Terminal commands
 
-```
+```jsx
 @ cd is for home directory.
 
 @ mkdir command is used to make a new directory/folder.
@@ -59,5 +59,5 @@ For eg. cp -r old_directory new_directory_name
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjExODgwMl19
+eyJoaXN0b3J5IjpbLTIwNjc5MTg0MTFdfQ==
 -->
