@@ -130,8 +130,6 @@ app.get("/", function(req, res) {
    <% } %>
    ```
 
-   
-
 2. <%=      %>
 
    * Outputs the value into the template (HTML escaped)
@@ -235,5 +233,5 @@ app.get("/", function(req, res) {
 
       
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyODkwNjI2XX0=
+eyJoaXN0b3J5IjpbLTc0MjYyMzg5OF19
 -->
