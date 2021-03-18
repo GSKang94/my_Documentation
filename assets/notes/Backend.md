@@ -16,7 +16,7 @@ It is a package manager for node.js
 * To install a package.
 * Use **--save** flag to save your package into the package.json file. 
 
-## require("<package name>")
+## require`("<package name>")`
 
 * To add a npm package into your js file.
 
@@ -130,8 +130,6 @@ app.get("/", function(req, res) {
    <% } %>
    ```
 
-   
-
 2. <%=      %>
 
    * Outputs the value into the template (HTML escaped)
@@ -234,3 +232,6 @@ app.get("/", function(req, res) {
       ```
 
       
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTc0MjYyMzg5OF19
+-->

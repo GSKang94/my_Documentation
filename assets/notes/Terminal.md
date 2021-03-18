@@ -1,6 +1,6 @@
 # Terminal commands
 
-```css
+```
 @ cd is for home directory.
 
 @ mkdir command is used to make a new directory/folder.
@@ -58,3 +58,6 @@ For eg. cp -r old_directory new_directory_name
 ```
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg2MjExODgwMiwtMjA2NzkxODQxMV19
+-->
