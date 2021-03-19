@@ -1,0 +1,15 @@
+{
+  "name": "Web-dev's Journal",
+  "background_color": "purple",
+  "description": "Shows random fox pictures. Hey, at least it isn't cats.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "assets/logos/less4.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "short_name": "Foxes",
+  "start_url": "/my_Documentation/index.html"
+}
