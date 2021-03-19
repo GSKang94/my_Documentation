@@ -5,8 +5,20 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/service-worker.js");
   });
 }
-if ("function" === typeof importScripts) {
-  importScripts(
-    "https://storage.googleapis.com/workbox-cdn/releases/6.1.1/workbox-sw.js"
+
+const cacheName = "web-dev";
+self.addEventListener("install", function (event) {
+  console.log("[Service Worker] Install");
+  event.waitUntil(
+    caches.open(cacheName).then(function (cache) {
+      console.log("[Service Worker] Caching all: app shell and content");
+      return cache.addAll([
+        "index.html",
+        "app.js",
+        "assets/style.css",
+        "assets/theme.css",
+        "assets/offline.html",
+      ]);
+    })
   );
-}
+});
