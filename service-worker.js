@@ -1,6 +1,5 @@
 let cacheName = "web-dev";
 let filesToCache = [
-  "/",
   "index.html",
   "app.js",
   "assets/style.css",
