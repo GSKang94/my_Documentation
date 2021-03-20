@@ -3,7 +3,7 @@ const links = document.querySelectorAll("nav ul li");
 links.forEach((li) => {
   li.addEventListener("click", () => {
     for (let sibling of li.parentNode.children) {
-      //To highlight selected page
+      //To highlight selected nav-link
       if (sibling !== li) {
         sibling.classList.remove("active");
       } else {
@@ -35,10 +35,10 @@ links.forEach((li) => {
   });
 });
 
-let navBar = document.querySelector("body nav");
 // Hide nav on scroll on mobile
 let phoneSize = window.matchMedia("(max-width: 480px)");
 if (phoneSize.matches) {
+  let navBar = document.querySelector("body nav");
   navBar.style.backgroundColor = "#393232";
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
@@ -51,17 +51,3 @@ if (phoneSize.matches) {
     prevScrollpos = currentScrollPos;
   };
 }
-
-// Initialize deferredPrompt for use later to show browser install prompt.
-let deferredPrompt;
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  // Prevent the mini-infobar from appearing on mobile
-  e.preventDefault();
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-  // Update UI notify the user they can install the PWA
-  showInstallPromotion();
-  // Optionally, send analytics event that PWA install promo was shown.
-  console.log(`'beforeinstallprompt' event was fired.`);
-});

@@ -1,16 +1,18 @@
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Syne Mono';
+  font-family: "Syne Mono";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/synemono/v3/@CgsKCVN5bmUgTW9ubyAA.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/synemono/v3/@CgsKCVN5bmUgTW9ubyAA.ttf)
+    format("truetype");
 }
 * {
   margin: 0;
@@ -115,7 +117,8 @@ nav ul li:first-child {
   height: 50%;
   border-bottom: 1px solid #f2edd7;
 }
-@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (max-width: 480px),
+  only screen and (min-width: 480px) and (max-width: 1024px) {
   nav ul li:first-child {
     padding-left: 0;
   }
@@ -140,7 +143,8 @@ nav ul li:hover {
 nav ul li i {
   padding-right: 1rem;
 }
-@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (max-width: 480px),
+  only screen and (min-width: 480px) and (max-width: 1024px) {
   nav ul li i {
     padding: 0.6rem;
   }
@@ -180,7 +184,8 @@ nav ul #home-svg {
   pointer-events: none;
   font-weight: bold;
 }
-@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (max-width: 480px),
+  only screen and (min-width: 480px) and (max-width: 1024px) {
   .li-text {
     display: none;
   }

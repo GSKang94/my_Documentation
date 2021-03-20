@@ -3,7 +3,6 @@
   "background_color": "#393232",
   "theme_color": "#1e212d",
   "description": "Gagandeep's web-dev notes",
-  "display": "fullscreen",
   "icons": [
     {
       "src": "assets/pwa.png",
