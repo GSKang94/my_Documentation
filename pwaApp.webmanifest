@@ -6,8 +6,34 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "assets/pwa.png",
+      "src": "assets/logos/PWA/pwa.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logos/PWA/18.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logos/PWA/20.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logos/PWA/24.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logos/PWA/36.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logos/PWA/48.png",
+      "sizes": "96x96",
       "type": "image/png",
       "purpose": "any maskable"
     }
