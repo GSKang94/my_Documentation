@@ -194,7 +194,7 @@ nav ul #home-svg {
   z-index: 0;
   position: absolute;
   top: 0;
-  padding: 2rem 0 0 20rem;
+  margin: 2rem 0 0 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,17 +203,18 @@ nav ul #home-svg {
 }
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   #home {
-    padding-left: 7rem;
+    margin-left: 7rem;
   }
 }
 @media only screen and (max-width: 480px) {
   #home {
-    padding-left: 2rem;
+    margin-left: 0rem;
+    margin: 1rem;
   }
 }
 #home h1 {
   margin-bottom: 1.8rem;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   #home h1 {
@@ -222,8 +223,7 @@ nav ul #home-svg {
 }
 @media only screen and (max-width: 480px) {
   #home h1 {
-    padding-top: 2.3rem;
-    margin-bottom: 0.7rem;
+    margin: 2.3rem 0 0.7rem 0;
   }
 }
 #home h1,
@@ -232,11 +232,17 @@ nav ul #home-svg {
   letter-spacing: 0.2rem;
 }
 #home h2 {
-  padding: 2.3rem 0 1rem 0;
+  margin: 2.3rem 0 1rem 0;
+  font-size: 1.8rem;
+  border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 480px) {
+  #home h2 {
+    font-size: 1.1rem;
+  }
 }
 #home p {
-  font-size: 1.2rem;
-  padding-right: 1rem;
+  font-size: 1.4rem;
   line-height: 1.8rem;
 }
 @media only screen and (max-width: 480px) {
@@ -249,11 +255,6 @@ nav ul #home-svg {
   width: 90%;
   height: 100%;
   flex-wrap: wrap;
-}
-@media only screen and (max-width: 480px) {
-  #home ul {
-    width: 100%;
-  }
 }
 #home ul li {
   display: flex;
@@ -282,6 +283,7 @@ nav ul #home-svg {
   margin-right: 0.4rem;
 }
 #home ul li i {
+  font-size: 1.5rem;
   margin-right: 0.4rem;
 }
 #home ul li a {
