@@ -6,51 +6,60 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-let deferredPrompt;
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
-  e.preventDefault();
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-});
-
 const links = document.querySelectorAll("nav ul li");
-
 links.forEach((li) => {
   li.addEventListener("click", () => {
-    for (let sibling of li.parentNode.children) {
-      //To highlight selected nav-link
-      if (sibling !== li) {
-        sibling.classList.remove("active");
-      } else {
-        li.classList.add("active");
-      }
-    }
+    //To highlight selected nav-link
+    highlightLinks(li);
 
-    let main = document.createElement("div");
-    let liInnerText = li.textContent.replace(/\s{2,}/g, " ").trim();
-    let container = document.getElementById("container");
+    // remove homepage
     document.getElementById("home").style.display = "none";
+    let liInnerText = li.textContent.replace(/\s{2,}/g, " ").trim();
     if (liInnerText !== "Home") {
-      container.innerHTML = "";
-      main.innerHTML = `
-      <zero-md src='assets/notes/${liInnerText}.md'>
-        <template>
-             <link rel="stylesheet" href="assets/theme.css">
-        </template>
-      </zero-md>
-      `;
+      renderSelectedFile(liInnerText);
     } else {
+      // go back to homepage
       window.location.reload();
     }
-
-    // fade effect on page change
-    main.animate([{ opacity: 0 }, { opacity: 1 }], 500);
-
-    container.appendChild(main);
   });
 });
+
+let highlightLinks = (li) => {
+  for (let sibling of li.parentNode.children) {
+    if (sibling !== li) {
+      sibling.classList.remove("active");
+    } else {
+      li.classList.add("active");
+    }
+  }
+};
+
+let renderSelectedFile = (liInnerText) => {
+  let container = document.getElementById("container");
+  let main = document.createElement("div");
+  container.innerHTML = "";
+  main.innerHTML = `
+  <zero-md src='assets/notes/${liInnerText}.md'>
+    <template>
+         <link rel="stylesheet" href="assets/theme.css">
+    </template>
+  </zero-md>
+  `;
+  pageAnimate(main);
+
+  container.appendChild(main);
+};
+
+let pageAnimate = (main) => {
+  main.animate(
+    [
+      { opacity: 0, easing: "ease-in" },
+      { opacity: 0.5, easing: "ease-out" },
+      { opacity: 1 },
+    ],
+    500
+  );
+};
 
 // Hide nav on scroll on mobile
 let phoneSize = window.matchMedia("(max-width: 480px)");
