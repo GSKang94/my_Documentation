@@ -67,7 +67,8 @@ nav {
     height: 100%;
     @media @phone {
       flex-direction: row;
-      overflow: scroll;
+      overflow-x: scroll;
+      overflow-y: hidden;
     }
     @media @mid {
       overflow: hidden;
@@ -79,14 +80,11 @@ nav {
       height: 100%;
       font-size: 1.7rem;
       letter-spacing: 0.1rem;
-
       color: @secondary-clr;
-      // background-color: @primary-clr;
       transition: all 0.2s ease;
-
       @media @phone {
         padding-left: 0;
-        margin-left: 0.4rem;
+        // margin-left: 0.4rem;
         font-size: 1.4rem;
       }
       @media @mid {
