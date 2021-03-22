@@ -1,6 +1,6 @@
 # Node.js
 
-We use node to run our javascript outside our browser console.
+We use node to run our javascript outside our browser console. 
 
 ## npm
 
@@ -8,19 +8,19 @@ It is a package manager for node.js
 
 ## npm init
 
-- use this command before adding any package into your project.
-- This will add a package.json file to your project.
+-* use this command before adding any package into your project.
+-* This will add a package.json file to your project.
 
 ## npm install <package name>
 
-- To install a package.
-- Use **--save** flag to save your package into the package.json file.
+-* To install a package.
+-* Use **--save** flag to save your package into the package.json file. 
 
 ## require`("<package name>")`
 
-- To add a npm package into your js file.
+-* To add a npm package into your js file.
 
-- Always save into a variable.
+-* Always save into a variable.
 
   ```js
   var express = require("express");
@@ -40,38 +40,39 @@ Its a js backend framework.
 
 ## app.get( )
 
-- To make a get request.
+-* To make a get request.
 
-- It accepts two arguments(path and a function).
+-* It accepts two arguments(path and a function).
 
   ```js
   app.get("/", function (request, response) {
-    response.send("Hi there!");
+    	response.send("Hi there!");
   });
   ```
 
-  This will display Hi there! on screen when we go to the root of our app but first we need app.listen for this.
+  This will display Hi there!  on screen when we go to the root of our app but first we need app.listen for this.
 
   ## app.listen( )
 
-  - To listen requests made by routes.
+  -* To listen requests made by routes.
 
-  - We need to provide a port to listen on.
+  -* We need to provide a port to listen on.
 
     ```js
     app.listen(3000);
     ```
 
+
 ## "\*" path
 
-- If our app recieves any request from undefined routes, then It'll follow this path.
+-* If our app recieves any request from undefined routes, then It'll follow this path.
 
-- We can show some error message by using this.
-- Always put this route at the end of other routes.
+-* We can show some error message by using this.
+-* Always put this route at the end of other routes.
 
 ```js
 app.get("*", function (req, res) {
-  res.send("Wrong Address!!");
+    res.send("Wrong Address!!");
 });
 ```
 
@@ -81,8 +82,8 @@ Also called Route Variables
 
 ```js
 app.get("/:name", function (req, res) {
-  var name = req.params.name;
-  res.send("Hello " + name);
+    var name = req.params.name;
+    res.send("Hello " + name);
 });
 ```
 
@@ -90,33 +91,34 @@ N.B :-- We can only use res.send one time so we can't use it in a loop.
 
 ## res.render( )
 
-To render HTML ejs file.
+To render HTML  ejs file.
 
 ```js
 app.get("/", function (req, res) {
-  res.render("home.ejs");
+  	res.render("home.ejs"); 
 });
 ```
 
-- To remove .ejs , we need to tell our express app that ejs is our default file system.
+-* To remove .ejs , we need to tell our express app that ejs is our default file system.
 
   ```js
   app.set("view engine", "ejs");
   ```
 
-# .ejs
+# .ejs        
 
-- Embeded javascript with html.
+-* Embeded javascript with html. 
 
-- Make a **views** directory inside your project folder.
+-* Make a **views** directory inside your project folder.
 
-- create ejs files in that directory.
+-* create ejs files in that directory.
 
-- We can make our page dynamic by this.
+-* We can make our page dynamic by this.
+
 
 ## ejs tags
 
-1. <% %>
+1. <%       %>
 
    It'll just run the code, for control flow and logic.
 
@@ -128,36 +130,36 @@ app.get("/", function (req, res) {
    <% } %>
    ```
 
-2. <%= %>
+2. <%=      %>
 
-   - Outputs the value into the template (HTML escaped)
-   - If we want our line or word of code to display inside our html file then we use this.
+   -* Outputs the value into the template (HTML escaped)
+   -* If we want our line or word of code to display inside our html file then we use this.
 
 ## misc
 
-- We can use css link tag inside ejs file.
+-* We can use css link tag inside ejs file.
 
-- Good practice is to put .css file into public folder.
+-* Good practice is to put .css file into public folder.
 
-- Then in app.js
+-* Then in app.js
 
   ```js
   app.use(express.static("public"));
   ```
 
-- By doing this, express will serve the contents of .css file.
+-* By doing this, express will serve the contents of .css file.
 
 ## Partials
 
-- We use these to make boilerplate templates to include them into our ejs pages.
+-* We use these to make boilerplate templates to include them into our ejs pages.
 
-- This will save alot of time since we don't have to write them again and again.
+-* This will save alot of time since we don't have to write them again and again.
 
-- mkdir views/partials
+-* mkdir views/partials
 
-- inside partials dir, touch 2 files header.ejs and footer.ejs
+-* inside partials dir, touch 2 files header.ejs and footer.ejs
 
-- ```js
+-* ```js
   <!DOCTYPE html>
   <html>
   	<head>
@@ -166,12 +168,12 @@ app.get("/", function (req, res) {
   <body>   //Add this to header file.
   ```
 
-- ```js
+-* ```js
   </body>
   </html> //Add this to footer file.
   ```
 
-- To include this into your pages,
+-* To include this into your pages, 
 
   ```js
   add on the top
@@ -182,36 +184,47 @@ app.get("/", function (req, res) {
 
   # app.post( )
 
-  - We are using a post route when we want to add data to our database. For eg. _ sending signup info , _ creating new comment.
+  -* We are using a post route when we want to add data to our database. For eg. _* sending signup info , _* creating new comment.
 
-  - ```js
+  -* ```js
     app.post("/addfriend", function (req, res) {
-      res.send("It's a post route");
+      	res.send("It's a post route");
     });
     ```
 
-  - In our ejs file, If we wanna post something using forms
+  -* In our ejs file, If we wanna post something using forms 
 
     ```js
-
+    
     ```
 
-  - **We then need body-parser to extract the entire body portion of an incoming request stream and exposes it on req.body.**
+  -* **We then need body-parser to extract the entire body portion of an incoming request stream and exposes it on req.body.**
+
+    
+
+    
+
+    
+
+    
 
     # API
 
     ## request
 
     ```js
-    var request = require("request");
-    request("API_URL", function (error, response, body) {
-      if (!error && response.statusCode == 200) {
-        console.log(body);
-      }
+    var request = require("'request"');
+    request("'API_URL"', function (error, response, body) {
+      	if (!error && response.statusCode == 200) {
+        		console.log(body);
+ 
+     	}
     });
     ```
 
-    - Most of api are in JSON format(long string) so we first need to convert them into javascript objects by using body parser.
+    -
+
+    * Most of api are in JSON format(long string) so we first need to convert them into javascript objects by using body parser.
 
       ```json
       JSON.parse(body);
@@ -507,4 +520,7 @@ const Circle = require("./circle");
 
 const c = new Circle(10);
 c.draw(); // Circle with radius 10
-```
+```      
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODIxOTE5MTQ0XX0=
+-->
