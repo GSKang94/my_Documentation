@@ -1,8 +1,8 @@
 let cacheName = "web-dev";
 let filesToCache = [
-  "index.html",
   "app.js",
   "assets/style.min.css",
+  "assets/style.css",
   "assets/theme.css",
   "assets/offline.html",
 ];

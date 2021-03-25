@@ -10,6 +10,11 @@ http://www.developer-cheatsheets.com/es6
 ```js
 <script  type="text/javascript"  src="portfolio.js"></script>
 ```
+
+## Find unique value in an array
+```js
+let unique = [...new Set(myArray)];
+```
 ## Night mode
 ```js
 // Select the button
@@ -1805,11 +1810,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc2NTM4NSwzNzkwOTI4NzAsMTEzOD
-Y4MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1
-NCwtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOT
-A4MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1
-NzQsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03Nz
-gyMDUwMTksNTE0NTUyMDc0LC03NDA5NTA5ODgsLTQxMjc5NDc5
-M119
+eyJoaXN0b3J5IjpbLTE3OTg2ODU5MjIsLTEwMDc2NTM4NSwzNz
+kwOTI4NzAsMTEzODY4MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEz
+NTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LD
+k2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0
+OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNz
+g3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUyMDc0LC03NDA5NTA5
+ODhdfQ==
 -->
