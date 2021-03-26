@@ -225,13 +225,14 @@ nav ul #home-svg {
   letter-spacing: 0.2rem;
 }
 #home h2 {
-  margin: 2.5rem;
+  margin: 4.5rem;
   font-size: 1.8rem;
   border-bottom: 1px solid white;
 }
 @media only screen and (max-width: 480px) {
   #home h2 {
     font-size: 1.1rem;
+    margin: 2.5rem;
   }
 }
 #home p {
@@ -246,7 +247,7 @@ nav ul #home-svg {
 }
 #home ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   justify-items: start;
   grid-gap: 3rem;
 }
@@ -261,7 +262,7 @@ nav ul #home-svg {
   }
 }
 #home ul li {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   position: relative;
   padding-bottom: 0.7rem;
 }
