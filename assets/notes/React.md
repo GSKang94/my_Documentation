@@ -142,6 +142,22 @@ class Foo extends Component {
     return <button onClick={this.handleSomething}>Do something</button>;
   }
 }
+
+renderSquare(i) {
+
+return (
+
+<Square
+
+value={this.state.squares[i]}
+
+onClick={() =>  this.handleClick(i)}
+
+/>
+
+);
+
+}
 ```
 
 ## Binding this
@@ -380,6 +396,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgyNjkwNTIsLTE4MDgxMDk3MTQsLT
-EwNzkxNTE4NzhdfQ==
+eyJoaXN0b3J5IjpbOTcyMzk3NTUsLTE4MDgxMDk3MTQsLTEwNz
+kxNTE4NzhdfQ==
 -->
