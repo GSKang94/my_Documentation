@@ -143,21 +143,15 @@ class Foo extends Component {
   }
 }
 
+ <-TIC-TAC-TOE 
 renderSquare(i) {
-
-return (
-
-<Square
-
-value={this.state.squares[i]}
-
-onClick={() =>  this.handleClick(i)}
-
-/>
-
-);
-
-}
+    return (
+      <Square
+        value={this.state.squares[i]}
+        onClick={() => this.handleClick(i)}
+      />
+    );
+  }
 ```
 
 ## Binding this
@@ -396,6 +390,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMzk3NTUsLTE4MDgxMDk3MTQsLTEwNz
-kxNTE4NzhdfQ==
+eyJoaXN0b3J5IjpbMTg5NTQxNjg5MiwtMTgwODEwOTcxNCwtMT
+A3OTE1MTg3OF19
 -->
