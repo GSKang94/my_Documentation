@@ -128,7 +128,9 @@ ReactDOM.render(<Counter />, document.getElementById("root"));
 
 # Events
 
-The event naming convention is to prefix the function with `handle`.
+! In React, it’s conventional to use `on[Event]` names for props which represent events and `handle[Event]` for the methods which handle the events.
+
+
 
 ```javascript
 class Foo extends Component {
@@ -378,6 +380,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDgxMDk3MTQsLTEwNzkxNTE4NzhdfQ
-==
+eyJoaXN0b3J5IjpbLTIwNDgyNjkwNTIsLTE4MDgxMDk3MTQsLT
+EwNzkxNTE4NzhdfQ==
 -->
