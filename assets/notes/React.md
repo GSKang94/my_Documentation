@@ -121,6 +121,7 @@ ReactDOM.render(<Counter />, document.getElementById("root"));
 # State
 
 * **To remember things, components use state.**
+
 * `setState` is used for updating the state AND re-rendering the view i.e. syncing the DOM with the virtual DOM.
 * The method takes an object, and merges or overwrites the state object with it.
 * If we update the state directly, React is unaware of the change, and nothing is rendered.
@@ -377,6 +378,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc0ODQyMjQsLTEwNzkxNTE4NzhdfQ
+eyJoaXN0b3J5IjpbLTE4MDgxMDk3MTQsLTEwNzkxNTE4NzhdfQ
 ==
 -->
