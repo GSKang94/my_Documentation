@@ -143,7 +143,7 @@ class Foo extends Component {
   }
 }
 
- <-TIC-TAC-TOE 
+ <-TIC-TAC-TOE-> 
 renderSquare(i) {
     return (
       <Square
@@ -390,6 +390,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTQxNjg5MiwtMTgwODEwOTcxNCwtMT
-A3OTE1MTg3OF19
+eyJoaXN0b3J5IjpbNzkxMTIwNDMsLTE4MDgxMDk3MTQsLTEwNz
+kxNTE4NzhdfQ==
 -->
