@@ -1,8 +1,8 @@
 ## Cheat-sheet
 
-- https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/react.js
+ https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/react.js
 
-- http://www.developer-cheatsheets.com/react
+ http://www.developer-cheatsheets.com/react
 
 React is a library that only takes care of rendering the view while making sure it's in sync with the state.
 
@@ -53,7 +53,7 @@ const element = <h1>Hello World</h1>; // JSX expression
 ReactDOM.render(element, document.getElementById("app"));
 ```
 
-# JSX
+ JSX
 
 It's syntactic sugar for creating HTML elements with javascript, instead of using templating engines. It's not a string, but an expression.
 
@@ -86,10 +86,9 @@ Whenever the state of the React element object changes...
 The DOM updating is done by the `render()` method in the `react-dom` module. It takes the object returned from JSX and renders the HTML inside the referenced div.
 
 # Components
+ piece of UI. A javascript class that has some state to be displayed and a render method.
 
-A piece of UI. A javascript class that has some state to be displayed and a render method.
-
-**counter.jsx**
+*counter.jsx**
 
 ```javascript
 import React, { Component } from "react";
@@ -115,22 +114,23 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Counter from "./components/counter";
 
-ReactDOM.render(<Counter />, document.getElementById("root"));
+ReactDOM.render(<Counter />, document.getElementById(root));
 ```
 
 # State
-
-* **To remember things, components use state.**
+ **To remember things, components use state.**
 
 * `setState` is used for updating the state AND re-rendering the view i.e. syncing the DOM with the virtual DOM.
-* The method takes an object, and merges or overwrites the state object with it.
-* If we update the state directly, React is unaware of the change, and nothing is rendered.
+* 
+The method takes an object, and merges or overwrites the state object with it.
+* 
+If we update the state directly, React is unaware of the change, and nothing is rendered.
 
 # Events
 
-! In React, it’s conventional to use `on[Event]` names for props which represent events and `handle[Event]` for the methods which handle the events.
+! In React, it’s conventional to use `on[Event]` names for props which represent events and `handle[Event]` for the methods whicThe event naming convention is to prefix the function with `handle the events.
 
-
+`.
 
 ```javascript
 class Foo extends Component {
@@ -163,7 +163,7 @@ renderSquare(i) {
 ```javascript
 class Foo extends Component {
   state = {
-    bar: "bar",
+  bar: "bar",
   };
 
   handleSomething = () => {
@@ -390,6 +390,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMTIwNDMsLTE4MDgxMDk3MTQsLTEwNz
-kxNTE4NzhdfQ==
+eyJoaXN0b3J5IjpbLTUxMDIxNjQzMSw3OTExMjA0MywtMTgwOD
+EwOTcxNCwtMTA3OTE1MTg3OF19
 -->
