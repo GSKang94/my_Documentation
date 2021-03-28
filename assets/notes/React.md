@@ -253,6 +253,8 @@ const element = <h1>Hello, world!</h1>;
 
 - Elements are the smallest building blocks of React apps.
 
+* An element is like a single frame in a movie: it represents the UI at a certain point in time.
+
 - An element describes what you want to see on the screen
 
   ```jsx
@@ -390,6 +392,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDIxNjQzMSw3OTExMjA0MywtMTgwOD
+eyJoaXN0b3J5IjpbMTk0MjIwMjgzOCw3OTExMjA0MywtMTgwOD
 EwOTcxNCwtMTA3OTE1MTg3OF19
 -->
