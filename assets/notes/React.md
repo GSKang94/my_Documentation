@@ -128,9 +128,7 @@ If we update the state directly, React is unaware of the change, and nothing is 
 
 # Events
 
-! In React, it’s conventional to use `on[Event]` names for props which represent events and `handle[Event]` for the methods whicThe event naming convention is to prefix the function with `handle the events.
-
-`.
+! In React, it’s conventional to use `on[Event]` names for props which represent events and `handle[Event]` for the methods which handle the events.
 
 ```javascript
 class Foo extends Component {
@@ -392,6 +390,6 @@ handleChange(event) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjIwMjgzOCw3OTExMjA0MywtMTgwOD
-EwOTcxNCwtMTA3OTE1MTg3OF19
+eyJoaXN0b3J5IjpbLTU4OTkxMTk4NCwxOTQyMjAyODM4LDc5MT
+EyMDQzLC0xODA4MTA5NzE0LC0xMDc5MTUxODc4XX0=
 -->
