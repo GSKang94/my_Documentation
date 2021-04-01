@@ -1726,7 +1726,8 @@ fetch("https://api.hatchways.io/assessment/students")
 
 ## Promise
 
-Promises are objects that represent the eventual outcome of an asynchronous operation. A `Promise` object can be in one of three states:
+Promise is an Object that might produce a value at som in the future.
+ A `Promise` object can be in one of three states:
 
 - **Pending**: The initial state— the operation has not completed yet.
 - **Fulfilled**: The operation has completed successfully and the promise now has a *resolved value*. 
@@ -1827,11 +1828,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzcwNDE2MTUsLTE3OTg2ODU5MjIsLT
-EwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4MjEwMCwtNTgyNTYz
-NTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMi
-wxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAx
-Nzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OC
-w5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUy
-MDc0XX0=
+eyJoaXN0b3J5IjpbLTcwNDI4MjQxOCwtMTc5ODY4NTkyMiwtMT
+AwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4NjgyMTAwLC01ODI1NjM1
+ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC0xNzI4NjQ5MTMyLD
+E1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgzNzIwNjEsNjU3MDE3
+NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOTAzNjY2NjQ4LD
+kyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAxOSw1MTQ1NTIw
+NzRdfQ==
 -->
