@@ -1717,7 +1717,11 @@ The place where the computer stores a function's context is the call stack. Ever
 It is just like cleaning the house, we carry on cleaning while dishwasher is cleaning dishes and washing machine is cleaning clothes. We don't need to wait for one task to finish to start the another one.
 
 ## API call
-Part of the remote server that accept reques
+**Part of the remote server that accept request and return response.**
+or
+**Servers that are created for serving data for external use**
+
+
 ```js
 fetch("https://api.hatchways.io/assessment/students")
     .then(response => response.json())
@@ -1829,11 +1833,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTAwMTc2MDUsLTE3OTg2ODU5MjIsLT
-EwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4MjEwMCwtNTgyNTYz
-NTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMi
-wxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAx
-Nzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1NzQsLTkwMzY2NjY0OC
-w5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03NzgyMDUwMTksNTE0NTUy
-MDc0XX0=
+eyJoaXN0b3J5IjpbMTg5OTA5OTE5OSwtMTc5ODY4NTkyMiwtMT
+AwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4NjgyMTAwLC01ODI1NjM1
+ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC0xNzI4NjQ5MTMyLD
+E1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgzNzIwNjEsNjU3MDE3
+NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NCwtOTAzNjY2NjQ4LD
+kyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIwNTAxOSw1MTQ1NTIw
+NzRdfQ==
 -->
