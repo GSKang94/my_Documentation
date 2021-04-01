@@ -1798,7 +1798,16 @@ firstPromiseFunction()
 
 **Async functions return a Promise. If the function throws an error, the Promise will be rejected. If the function returns a value, the Promise will be resolved.**
 ```js
-
+let api = 'https://jsonplaceholder.typicode.com/users';
+async function getInfo() {
+  try {
+    let response = await fetch(api);
+    const people = await response.json();
+    return people[8].name
+    } catch(err){
+      console.log(err)
+    }
+}
 
 ```
 
@@ -1818,7 +1827,7 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjcyMzk2NzYsLTE3OTg2ODU5MjIsLT
+eyJoaXN0b3J5IjpbLTExNzcwNDE2MTUsLTE3OTg2ODU5MjIsLT
 EwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4MjEwMCwtNTgyNTYz
 NTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NCwtMTcyODY0OTEzMi
 wxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAx
