@@ -1,3 +1,25 @@
+# Snippets
+### Fetching a api
+```js
+let api = 'https://jsonplaceholder.typicode.com/users';
+async function getInfo() {
+  let response = await fetch(api);
+  const people = await response.json();
+  return people[8].name
+}
+
+// fetch(api)
+//   .then((response) => response.json())
+// .then((data)=>appendData(data))
+
+// function appendData(data) {
+//   console.log(data)
+// } 
+```
+
+
+
+
 ## Nginx
 * To test errors in config
  `sudo nginx -t`
@@ -186,8 +208,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MzI2Njk3LDYwMzI0OTY1MCwxNjI3Mj
-E3MjM4LDEzNTc1MjQwNTQsLTExMDU0NDgxNjMsLTY2OTc5Nzc1
-OSwyMDc0MzIzNzY4LDEwMzAwMzkzMTUsMjA3MDY3NzIyNCw0OD
-k2MDA2MjRdfQ==
+eyJoaXN0b3J5IjpbLTExOTUzNTI3NDEsODI4MzI2Njk3LDYwMz
+I0OTY1MCwxNjI3MjE3MjM4LDEzNTc1MjQwNTQsLTExMDU0NDgx
+NjMsLTY2OTc5Nzc1OSwyMDc0MzIzNzY4LDEwMzAwMzkzMTUsMj
+A3MDY3NzIyNCw0ODk2MDA2MjRdfQ==
 -->
