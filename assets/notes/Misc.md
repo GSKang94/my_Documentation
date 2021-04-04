@@ -42,9 +42,6 @@ async function getInfo() {
 
 ```
 
-
-
-
 ## Nginx
 * To test errors in config
  `sudo nginx -t`
@@ -233,7 +230,7 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjIzMjc1NCw4MjgzMjY2OTcsNjAzMj
+eyJoaXN0b3J5IjpbLTc5NjM0NDkwMCw4MjgzMjY2OTcsNjAzMj
 Q5NjUwLDE2MjcyMTcyMzgsMTM1NzUyNDA1NCwtMTEwNTQ0ODE2
 MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMDAzOTMxNSwyMD
 cwNjc3MjI0LDQ4OTYwMDYyNF19
