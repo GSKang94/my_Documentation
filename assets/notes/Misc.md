@@ -17,6 +17,31 @@ async function getInfo() {
 // } 
 ```
 
+### Hamburger menu
+```css
+<div id="ham-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+</div>
+
+#ham-burger {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+
+  .line {
+    background-color: @secondary-clr;
+    height: 3px;
+    width: 30px;
+    margin: 4px 1px;
+  }
+}
+
+```
+
 
 
 
@@ -208,8 +233,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUzNTI3NDEsODI4MzI2Njk3LDYwMz
-I0OTY1MCwxNjI3MjE3MjM4LDEzNTc1MjQwNTQsLTExMDU0NDgx
-NjMsLTY2OTc5Nzc1OSwyMDc0MzIzNzY4LDEwMzAwMzkzMTUsMj
-A3MDY3NzIyNCw0ODk2MDA2MjRdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjIzMjc1NCw4MjgzMjY2OTcsNjAzMj
+Q5NjUwLDE2MjcyMTcyMzgsMTM1NzUyNDA1NCwtMTEwNTQ0ODE2
+MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMDAzOTMxNSwyMD
+cwNjc3MjI0LDQ4OTYwMDYyNF19
 -->
