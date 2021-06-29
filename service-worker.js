@@ -1,11 +1,5 @@
 let cacheName = "web-dev";
-let filesToCache = [
-  "app.js",
-  "assets/style.min.css",
-  "assets/style.css",
-  "assets/theme.css",
-  "assets/offline.html",
-];
+let filesToCache = ["app.js", "assets/style.css", "assets/theme.css"];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener("install", function (e) {
