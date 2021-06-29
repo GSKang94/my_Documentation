@@ -1,7 +1,7 @@
 {
-  "name": "Web-dev's Journal",
+  "name": "Dev's Journal",
   "background_color": "#000",
-  "theme_color": "#1e212d",
+  "theme_color": "#1A1E2E",
   "description": "Gagandeep's web-dev notes",
   "display": "standalone",
   "icons": [
@@ -38,6 +38,6 @@
       "purpose": "any maskable"
     }
   ],
-  "short_name": "Mea journal",
+  "short_name": "Dev's Journal",
   "start_url": "/my_Documentation/index.html"
 }

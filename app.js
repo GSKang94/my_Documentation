@@ -64,8 +64,6 @@ let pageAnimate = (main) => {
 // Hide nav on scroll on mobile
 let phoneSize = window.matchMedia("(max-width: 480px)");
 if (phoneSize.matches) {
-  let navBar = document.querySelector("body nav");
-  navBar.style.backgroundColor = "#393232";
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
