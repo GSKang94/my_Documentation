@@ -9,7 +9,7 @@
   scroll-behavior: smooth;
 }
 
-@primary-clr: #393232;
+@primary-clr: #1A1E2E;
 @secondary-clr: #f2edd7;
 @desktop: ~"only screen and (min-width: 1024px) and (max-width: 1280px)";
 // @tablet: ~"only screen and (min-width: 768px) and (max-width: 1024px)";
@@ -17,7 +17,7 @@
 @phone: ~"only screen and (max-width: 480px)";
 
 body {
-  background-color: #1e212d;
+  background-color: #202639;
   font-family: "Lato", sans-serif;
 
   &::-webkit-scrollbar {
@@ -38,7 +38,7 @@ nav {
   position: fixed;
   height: 100vh;
   width: 18rem;
-  background-color: rgba(57, 50, 50, 0.5);
+  background-color: #1A1E2E;
   transition: top 0.3s ease-out;
   z-index: 1;
   @media @phone {
@@ -88,25 +88,7 @@ nav {
         width: 100%;
         justify-content: center;
       }
-      &:first-child {
-        background-color: rgba(57, 50, 50, 1);
-        -webkit-filter: saturate(300%);
-        filter: saturate(100%);
-        font-size: 1.3rem;
-        padding-left: 6rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        height: 50%;
-        border-bottom: 1px solid @secondary-clr;
-        @media @phone, @mid {
-          padding-left: 0;
-        }
-        &:hover {
-          background-color: @primary-clr;
-          color: @secondary-clr;
-        }
-      }
+      
       &:hover {
         background-color: @secondary-clr;
         color: @primary-clr;
@@ -156,7 +138,7 @@ nav {
 }
 
 .active {
-  background-color: #1e212c;
+  background-color: #202639;
   pointer-events: none;
   font-weight: bold;
 }

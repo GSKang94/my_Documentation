@@ -4,7 +4,7 @@
 }
 
 span.token.operator {
-  background-color: #282a36;
+  background-color: #001627;
 }
 .markdown-body h1,
 .markdown-body h2 {
@@ -46,7 +46,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: #282a36;
+  background: #001627;
 }
 
 /* Inline code */

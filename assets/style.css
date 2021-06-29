@@ -21,7 +21,7 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: #1e212d;
+  background-color: #202639;
   font-family: "Lato", sans-serif;
 }
 body::-webkit-scrollbar {
@@ -31,14 +31,14 @@ body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #393232;
+  background-color: #1A1E2E;
   border-radius: 5px;
 }
 nav {
   position: fixed;
   height: 100vh;
   width: 18rem;
-  background-color: rgba(57, 50, 50, 0.5);
+  background-color: #1A1E2E;
   transition: top 0.3s ease-out;
   z-index: 1;
 }
@@ -102,30 +102,9 @@ nav ul li {
     justify-content: center;
   }
 }
-nav ul li:first-child {
-  background-color: #393232;
-  -webkit-filter: saturate(300%);
-  filter: saturate(100%);
-  font-size: 1.3rem;
-  padding-left: 6rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  height: 50%;
-  border-bottom: 1px solid #f2edd7;
-}
-@media only screen and (max-width: 480px), only screen and (min-width: 480px) and (max-width: 1024px) {
-  nav ul li:first-child {
-    padding-left: 0;
-  }
-}
-nav ul li:first-child:hover {
-  background-color: #393232;
-  color: #f2edd7;
-}
 nav ul li:hover {
   background-color: #f2edd7;
-  color: #393232;
+  color: #1A1E2E;
   cursor: pointer;
   font-weight: bold;
 }
@@ -176,7 +155,7 @@ nav ul #home-svg {
   }
 }
 .active {
-  background-color: #1e212c;
+  background-color: #202639;
   pointer-events: none;
   font-weight: bold;
 }
