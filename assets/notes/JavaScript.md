@@ -149,10 +149,11 @@ dog.name = "Sheru" //This will be ignored.
 ## Variable Hoisting
 
 We cannot access a variable before its expression.
-
+```js
     console.log(age);
     var age = 23;
     //undefined
+```
 ## String Interpolation
 
 We can do this to avoid string concatenation and to improve readability of our code.
@@ -189,8 +190,6 @@ res = str.substr(3);
 //'o world!'
 ```
 
-
-
 ## Comments
 
 **N.B-- Comments should explain why, not what.**
@@ -204,6 +203,7 @@ Let you know the type of input.
 typeof 4 //returns number
 ```
 ## Mathematical Assignment Operators
+
 ```js
 Instead of 
 w = w + 5;
@@ -269,7 +269,7 @@ Assuming x = 5 and y = 9
 | Operator | Name | Example           | Result |
 | -------- | ---- | ----------------- | ------ |
 | &&       | AND  | x < 10 && x !== 5 | false  |
-| ||       | OR   | y > 9 || x === 5  | true   |
+| `||`       | OR   | y > 9 `||` x === 5  | true   |
 | !        | NOT  | !(x === y)        | true   |
 
 **Example of AND operator**
@@ -1828,7 +1828,7 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTYyMzUxNiwtMTE1MTA3Nzk4OSwtMT
+eyJoaXN0b3J5IjpbLTIxODc2NjM2MywtMTE1MTA3Nzk4OSwtMT
 c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
 MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
 0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
