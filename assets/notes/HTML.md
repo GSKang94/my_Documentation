@@ -157,8 +157,11 @@ Or **ctrl+/**
 </form>
 ```
 - action —where you want to submit form-data (Hyperlink)
+
+
 ### method
 - method — what HTTP method (GET/POST).
+
 ### Input type
 
 About 30 type of inputs we can give.
@@ -172,7 +175,6 @@ self closing (like img)
 <input type =”text”>
 ```
 
-
 ### Placeholder 
 
 (text inside the field)
@@ -180,7 +182,6 @@ self closing (like img)
 ```html
 <input type="text" placeholder="theis placeholder text">
 ```
-
 
 ### Label tag
 - Add label to the input boxes.
@@ -394,8 +395,8 @@ NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
 c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTQzODI1NSwxMjcyMDk3NTA3LC04MT
-k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
-NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
-c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
+eyJoaXN0b3J5IjpbLTE4ODU1MzE2ODMsMjA0NTQzODI1NSwxMj
+cyMDk3NTA3LC04MTk3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUz
+Mzg2NiwyMDcyODY4NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LD
+gwNjk1NzgxOSwtMTc5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
