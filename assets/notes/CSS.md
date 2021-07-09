@@ -176,11 +176,11 @@ This enable us to transition between two states of an element.
 
 ## Interesting selector
 
-****    This selector select the visited and un visited links.
-
+ This selector select the visited and un visited links.
+```css
 a:link{color: red;}
 a:visited{color: yellow;}
-
+```
 ## Multiple selectors
 - To avoid code repetition which will save time.
 
@@ -980,11 +980,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDMxMDQyNyw3NzQ5NDUxNDMsNDEzMz
-EzMDcwLDE1MTYxOTIwOTgsMTI0MDg5ODczMywxMDQ0NjM5OTMz
-LC0xMzc0Mjc2ODc0LC00MzIxNjg1NjUsMTA1MTE4MDkyOSwtNz
-gwODkxMTU5LC03ODA4OTExNTksLTIwMzM4NDMxNzYsMTYzMTUz
-NDE1MCwtMzczMDU4MzI0LC0xMDE3NzE4MDE1LC0xNjM0Mjg3Mz
-I0LC0xNjU1MzAwMzAxLDEwMzMxNTY0MywtMTI5ODkxMDY2XX0=
-
+eyJoaXN0b3J5IjpbNTA3MjEyNDM4LC05MDAzMTA0MjcsNzc0OT
+Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
+MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
+ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
+MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
+wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
+OTg5MTA2Nl19
 -->
