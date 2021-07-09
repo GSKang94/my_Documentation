@@ -4,6 +4,7 @@
 http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
 
+
  **HTML** provides structure to the content.
 
 **Boiler-plate** 
@@ -395,8 +396,8 @@ NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
 c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU1MzE2ODMsMjA0NTQzODI1NSwxMj
-cyMDk3NTA3LC04MTk3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUz
-Mzg2NiwyMDcyODY4NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LD
-gwNjk1NzgxOSwtMTc5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
+eyJoaXN0b3J5IjpbLTg3ODU5NTM4MSwyMDQ1NDM4MjU1LDEyNz
+IwOTc1MDcsLTgxOTc5ODY4MCwtMTAzNzgzNTU1MiwtNDc1NTMz
+ODY2LDIwNzI4Njg2NTksNDUyMTI3NDgzLDIwNjg1ODc4ODksOD
+A2OTU3ODE5LC0xNzk2NTQ4MDkwLDM3ODM5Nzk2Nl19
 -->
