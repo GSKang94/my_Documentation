@@ -1,5 +1,5 @@
 
-[Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/ )
+[Cheatsheet](https://javascript.pythoncheatsheet.org/# )
 [ES-6 CheatSheet](http://www.developer-cheatsheets.com/es6)
 
 ## Add external js file
@@ -7,65 +7,6 @@
 <script  type="text/javascript"  src="portfolio.js"></script>
 ```
 
-## Find unique value in an array
-```js
-let unique = [...new Set(myArray)];
-```
-## Night mode
-```js
-// Select the button
- const btn = document.querySelector('.btn-toggle');
-
-// Listen for a click on the button
-btn.addEventListener('click', function () {
-
-// Then toggle (add/remove) the .dark-theme class to the body
-document.body.classList.toggle('dark-theme');
- })
-
-//HTML
-<body class="dark-theme || light-theme">
-
-    <button class="btn-toggle">Toggle Dark Mode</button>
-
-</body>
-```
-## Get and set css variables
-```js
-let  style = getComputedStyle(document.body);
-let  gridColor = style.getPropertyValue('--grid-color');
-this.style.backgroundColor = gridColor;
-
-container.style.setProperty("--grid-row-column", rows);
-```
-
-## Add style on scroll
-```js
-const navbar = document.querySelector('#navbar');
-
-window.onscroll  = () => {
-
-      if (window.scrollY >  530) {
-
-            navbar.classList.add('nav-active');
-
-      } else {
-
-            navbar.classList.remove('nav-active');
-      }
-};
-```
-### Hide keyboard on keypress
-`this.blur()`
-
-
-
-## Round numbers
-```js
-//To one decimal
-	Math.round(num * 10) / 10;
-//add zeros for more decimal places
-```
 ## Primitive Datatypes
 
 
@@ -1826,12 +1767,72 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 ## event.preventDefault ( )
 
 To prevent the default form submit behavior which will refresh the web page.
+
+## Find unique value in an array
+```js
+let unique = [...new Set(myArray)];
+```
+## Night mode
+```js
+// Select the button
+ const btn = document.querySelector('.btn-toggle');
+
+// Listen for a click on the button
+btn.addEventListener('click', function () {
+
+// Then toggle (add/remove) the .dark-theme class to the body
+document.body.classList.toggle('dark-theme');
+ })
+
+//HTML
+<body class="dark-theme || light-theme">
+
+    <button class="btn-toggle">Toggle Dark Mode</button>
+
+</body>
+```
+## Get and set css variables
+```js
+let  style = getComputedStyle(document.body);
+let  gridColor = style.getPropertyValue('--grid-color');
+this.style.backgroundColor = gridColor;
+
+container.style.setProperty("--grid-row-column", rows);
+```
+
+## Add style on scroll
+```js
+const navbar = document.querySelector('#navbar');
+
+window.onscroll  = () => {
+
+      if (window.scrollY >  530) {
+
+            navbar.classList.add('nav-active');
+
+      } else {
+
+            navbar.classList.remove('nav-active');
+      }
+};
+```
+### Hide keyboard on keypress
+`this.blur()`
+
+
+
+## Round numbers
+```js
+//To one decimal
+	Math.round(num * 10) / 10;
+//add zeros for more decimal places
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTcxNDg5MjMsLTExNTEwNzc5ODksLT
-E3OTg2ODU5MjIsLTEwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4
-MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NC
-wtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4
-MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1Nz
-QsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03Nzgy
-MDUwMTldfQ==
+eyJoaXN0b3J5IjpbMTkxNzcxMjcyMCwtMTE1MTA3Nzk4OSwtMT
+c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
+MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
+0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
+NzIwNjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NC
+wtOTAzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIw
+NTAxOV19
 -->
