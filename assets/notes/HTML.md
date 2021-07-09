@@ -141,12 +141,12 @@ Or **ctrl+/**
     <form>
      </form>
     ```
-    ## Stop page reloading on submit button
+    ### Stop page reloading on submit button
     `<form  onsubmit="return  false">`
     
 
 ## **Form attributes**
-## action 
+### action 
 
 (submit your input form data to the servers)
 
@@ -156,14 +156,14 @@ Or **ctrl+/**
 </form>
 ```
 - action —where you want to submit form-data (Hyperlink)
-## method
+### method
 - method — what HTTP method (GET/POST).
-## Input type
+### Input type
 
 About 30 type of inputs we can give.
 Example: radio, text, password, color etc.
 
-## Text field 
+### Text field 
 
 self closing (like img)
 
@@ -172,7 +172,7 @@ self closing (like img)
 ```
 
 
-## Placeholder 
+### Placeholder 
 
 (text inside the field)
 
@@ -181,7 +181,7 @@ self closing (like img)
 ```
 
 
-## Label tag
+### Label tag
 - Add label to the input boxes.
 
 - Make a small container.
@@ -194,7 +194,7 @@ self closing (like img)
       <input type="text" placeholder="username">
     </label>
     ```
-## ADD accessibility
+### ADD accessibility
 
 it is considered as best practice to set a  for attribute on the label element. Also an id attribute should be set inside input element. value of for = id. This practice is must for assistive technologies.
 
@@ -204,13 +204,13 @@ it is considered as best practice to set a  for attribute on the label element. 
 ```
 
 
-## Form Validation
+### Form Validation
 * make text fields require to fill before submitting the form.
     ```<input type="text" required>```
 * We can also change the data type.
     ```<input type="email">```
     
-## submit button
+### submit button
 ```html
 <button type="submit">name of the button</button>
                  or
@@ -389,7 +389,7 @@ ctx.fillRect(10, 10, 150, 100);
 
 The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk1NjQzMCwxMjcyMDk3NTA3LC04MT
+eyJoaXN0b3J5IjpbMTM1NTkyMzg4OCwxMjcyMDk3NTA3LC04MT
 k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
 NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
 c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
