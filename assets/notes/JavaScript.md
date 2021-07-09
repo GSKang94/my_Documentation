@@ -316,7 +316,7 @@ Everything Else Is Truthy.
 ```
 
 
-# Conditionals
+## Conditionals
 
 Adding logic to the code.
 N.B-- We can write a if….else statement inside another if….else statement.
@@ -408,14 +408,14 @@ Parameters act as a placeholder text.
 
 Default parameters allow parameters to have a predetermined value in case there is no argument passed into the function or if the argument is `undefined` when called.
 
-
+```js
     function greeting (name = 'stranger') {
       console.log(`Hello, ${name}!`)
     }
     greeting('Nick') // Output: Hello, Nick!
     greeting() // Output: Hello, stranger!
 
-
+```
 ## Return Keyword
 
 N.B-- We d`onot need the break keyword in a switch statement because return does the same thing.
@@ -587,6 +587,7 @@ function first() {
 N.B-- Scope only operates **inside-out.**
 
 ## Block 
+
 - **Blocks** are statements that exist within curly braces `{}`.
 
 Best practice
@@ -1828,7 +1829,7 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODc2NjM2MywtMTE1MTA3Nzk4OSwtMT
+eyJoaXN0b3J5IjpbLTE0MjU2NTA4MywtMTE1MTA3Nzk4OSwtMT
 c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
 MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
 0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
