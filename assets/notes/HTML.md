@@ -286,23 +286,23 @@ Similar to div tag as it divide text into small pieces. It is an **inline elemen
 
 ----------
 ## em, strong and blockquote tags
-```html
-<!--The reason for using these sementic elements is that other programs,such as screen readers or search engines, can use this extra information. For example, the voice of a screen reader may add emphasis to the words inside the <em> element, or a search engine might register that your page features a quote if you use the <blockquote> element.-->
-```
 
-<em> for *italics.*
-<strong> for **Bold.**
+The reason for using these sementic elements is that other programs,such as screen readers or search engines, can use this extra information. For example, the voice of a screen reader may add emphasis to the words inside the <em> element, or a search engine might register that your page features a quote if you use the <blockquote> element.
 
-## <br>tag
+
+`<em>` for *italics.*
+`<strong>` for **Bold.**
+
+## br tag
 
 Line break
-only <br> element without closing tag.
+only` <br>` element without closing tag.
 (horizontal-rules) element  insert a horizontal line and used to sectionize a text page.
 
-## <hr> tag
-## <b> (Bold tag)
-## <i>  (Italics tag)
-## <q> (Quote tag)
+## `<hr>` tag
+## `<b>` (Bold tag)
+## `<i>`  (Italics tag)
+## `<q>` (Quote tag)
 
 
 ## Script tags
@@ -311,7 +311,7 @@ only <br> element without closing tag.
     CO<sub>2</sub>      <sub> is known as subscript.
 
 
-## <ins> and <del> tags
+## `<ins>` and `<del>` tags
     <p>It was the <del>worst</del> <ins>best</ins> idea
     she had ever had.</p>
     Result: It was the worst best idea she had ever had.
@@ -390,8 +390,8 @@ ctx.fillRect(10, 10, 150, 100);
 
 The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYzNjU2NSwxMjcyMDk3NTA3LC04MT
-k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
-NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
-c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTI0MzU5MzcsMTI3MjA5NzUwNywtOD
+E5Nzk4NjgwLC0xMDM3ODM1NTUyLC00NzU1MzM4NjYsMjA3Mjg2
+ODY1OSw0NTIxMjc0ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLT
+E3OTY1NDgwOTAsMzc4Mzk3OTY2XX0=
 -->
