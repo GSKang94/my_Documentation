@@ -5,6 +5,7 @@
 ## inline style in  HTML
 
     <p style="color:red; font-size:20 px;">
+    
 ## style Tag in HTML
 - Must be placed inside the head element.
 
@@ -64,13 +65,14 @@ king of all selectors but we need to avoid it.
 
 ## main > *
 
-## { This means select everything inside the main class}
+####  This means select everything inside the main class
 
 # **Specificity**
 - Specificity is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity, so that if an element needs a new style, it is easy to override.
 - To make styles easy to edit, it's best to style with a tag selector, if possible. If not, add a class selector. If that is not specific enough, then consider using an ID selector.
 - **!important>inline>id>class>tag**
-##                          **Chaining selectors**
+
+## **Chaining selectors**
 
 We require chaining when HTML element has two or more CSS selectors at the same time.
 
@@ -975,7 +977,7 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTY3ODg0MSw0MTMzMTMwNzAsMTUxNj
+eyJoaXN0b3J5IjpbLTk2OTgxOTEyMyw0MTMzMTMwNzAsMTUxNj
 E5MjA5OCwxMjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4
 NzQsLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLT
 c4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMw
