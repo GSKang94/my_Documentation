@@ -576,10 +576,12 @@ Local fonts can be added to a document with the `@font-face` property and the pa
 ## Word Spacing
 ```css
     word-spacing: 0.25em(default)     Unit is "em"                        0 to 1em;
+```
 ## Letter Spacing (Kerning)
+```css
     letter-spacing: 0.3em;
 
-
+```
 ## Line Height
 ```css
 line-height: 1.2 is the absolute value and line spacing                   will adjust according to font-size.
@@ -623,7 +625,7 @@ Resource=> https://learncssgrid.com/
 To set up a grid, we need both **grid container** and **grid items** 
 In HTML
 
-```css
+```html
  <div class="grid">
     <div class="box a">Grid Item A</div>
     <div class="box b">Grid Item B</div>
@@ -786,10 +788,11 @@ It determines the spacing between lines, while `**align-items**` determines how 
 ## Align-self
 
 This allows the default alignment to be overridden for **individual** flex items.
+```css
 
     align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
-
+```
 ## flex-basis
 
 To set the width of individual item.
@@ -839,8 +842,6 @@ This means, when the device is screen, and the max screen width is 480px, only t
 @phone: ~"only screen and (max-width: 480px)";
 
 ```
-
-
 
 ## range
 
@@ -1001,11 +1002,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NzQ4NTEwLC05MDAzMTA0MjcsNzc0OT
-Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
-MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
-ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
-MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
-wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
-OTg5MTA2Nl19
+eyJoaXN0b3J5IjpbLTE4Nzk3NjQzMzgsLTkwMDMxMDQyNyw3Nz
+Q5NDUxNDMsNDEzMzEzMDcwLDE1MTYxOTIwOTgsMTI0MDg5ODcz
+MywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00MzIxNjg1NjUsMT
+A1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTExNTksLTIwMzM4
+NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMDE3NzE4MD
+E1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMxNTY0Mywt
+MTI5ODkxMDY2XX0=
 -->
