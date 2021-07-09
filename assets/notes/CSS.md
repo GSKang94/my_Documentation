@@ -514,9 +514,11 @@ The art of arranging text on a page.
       font-family: "Courier New";
     }
 ## Fallback Font (Plan B)
+```css
     h1 {
       font-family: "Garamond", "Times", serif;
     }
+```
 ## Linking Fonts
 - Link fonts to the online available source.
 - Google fonts.
@@ -532,35 +534,47 @@ The art of arranging text on a page.
 Local fonts can be added to a document with the `@font-face` property and the path to the font's source.
 
 ## Font-size
+```css
     p {
       font-size: 18px;
     }
-
+```
 
 ## em
     em is a unit of size and it is relative to its parent element.
 ## Font-weight I
+```css
     p {
       font-weight: bold or normal(default);
     }
+   
+```
 ## Font-weight II
+```css
     font-weight: 100 to 900; (only multiples of 100.)
     400 is default value.
     700 is bold.
     300 is light.
 
-
+```
 ## Text-Shadow
+```css
     text-shadow: 1px(offset-x) 1px(offset-y) 1px(blur-radius) black(color);
+    
+```
 ## Font Style
+```css
     font-style: italic or normal;
 
-
+```
 ## Style only first letter
+```css
     p:first-letter{
     font-size:50px;
     }
+```
 ## Word Spacing
+```css
     word-spacing: 0.25em(default)     Unit is "em"                        0 to 1em;
 ## Letter Spacing (Kerning)
     letter-spacing: 0.3em;
@@ -987,11 +1001,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDA2NTY3NiwtOTAwMzEwNDI3LDc3ND
-k0NTE0Myw0MTMzMTMwNzAsMTUxNjE5MjA5OCwxMjQwODk4NzMz
-LDEwNDQ2Mzk5MzMsLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMD
-UxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0
-MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMT
-UsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0x
-Mjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbNDk2NzQ4NTEwLC05MDAzMTA0MjcsNzc0OT
+Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
+MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
+ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
+MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
+wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
+OTg5MTA2Nl19
 -->
