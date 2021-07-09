@@ -207,21 +207,24 @@ h1,
 ## CSS Declaration
 
 Example:
-
+```css
     h1 {
       color: blue;
     }
-
+```
 In above declaration, Color is property and blue is value of declaration.
 
 ## Viewport
-    The viewport is the area of your browser where actual content is displayed - in other words your web browser without its toolbars and buttons. The units are vw, vh, vmin and vmax. They all represent a percentage of the browser (viewport) dimensions and scale accordingly on window resize.
+
+   The viewport is the area of your browser where actual content is displayed - in other words your web browser without its toolbars and buttons. The units are vw, vh, vmin and vmax. They all represent a percentage of the browser (viewport) dimensions and scale accordingly on window resize.
     
 ## Opacity (0-1)
+```css
     h1 {
       opacity: 0.5;
     }
     
+```
 ## Background Image
 ```css
 p {
@@ -980,11 +983,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MjEyNDM4LC05MDAzMTA0MjcsNzc0OT
-Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
-MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
-ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
-MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
-wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
-OTg5MTA2Nl19
+eyJoaXN0b3J5IjpbLTExMTU3MTc5NjQsLTkwMDMxMDQyNyw3Nz
+Q5NDUxNDMsNDEzMzEzMDcwLDE1MTYxOTIwOTgsMTI0MDg5ODcz
+MywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00MzIxNjg1NjUsMT
+A1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTExNTksLTIwMzM4
+NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMDE3NzE4MD
+E1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMxNTY0Mywt
+MTI5ODkxMDY2XX0=
 -->
