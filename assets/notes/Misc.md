@@ -94,59 +94,6 @@ gzip on;
     listen [::]:443 http2 
     listen 443 http2
 ```
-# Land a Job!!
-
-- `Learn HTML,` 
-- CSS,
-- Sass,
-- Flexbox,
-- Grid,
-- JavaScript,
-- NodeJS, 
-- React,
-- <<<<<PHP>>>>>
--  Grunt/Gulp.
-- Practice by making projects.
-- Make Portfolio.
-- Prepare for interview.
-- Apply.
-
-## Interview 
-
-### Before interview
-
-- Do research on the company. Find out what problems they are solving. Figure out what problems they have that they are hiring for. Try to be the person that fills those roles and are the person they want to hire
-- Send a thank you letter ASAP! Always send a follow up email thanking them for their time and be confident they will choose you. I always tell them that I hope to hear back soon on when I can start and help them solve their problems. Remember, as a developer you are a problem solver.
-
-### Questions
-
-1. **Why you wanna become a web devloper?**
-
-I like coding because it's an ever growing field. And if you're not growing you're dying. I love learning new things, creating new ideas, and watching them come together. Seeing that blank canvas turn into something beautiful that millions of people can see is awesome. 
-
-
-2. **What is responsive website?**
-
-When a website responds to the size of the screen it's viewed on, it’s called a *responsive* website.
-
-
-3. **How can we make one?**
-- Using flexbox instead of traditional box.
-- using relative units of measurement for eg. rem, em, % etc.
-- Using media queries.
-
-
-4. **What are media queries?**
-
-CSS uses *media queries* to adapt a website's content to different screen sizes. With media queries, CSS can detect the size of the current screen and apply different CSS styles depending on the width of the screen.
-
-### Questions to ask interviewer
-
-Q1. Is there room to grow into higher level positions ?
-
-Q2. Do you offer option to work remotely ?
-
-Q3. can you tell me about how a project typically goes.
 
 
 ## Nodemon
@@ -230,8 +177,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjM0NDkwMCw4MjgzMjY2OTcsNjAzMj
-Q5NjUwLDE2MjcyMTcyMzgsMTM1NzUyNDA1NCwtMTEwNTQ0ODE2
-MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMDAzOTMxNSwyMD
-cwNjc3MjI0LDQ4OTYwMDYyNF19
+eyJoaXN0b3J5IjpbNTY3OTg0NzgsLTc5NjM0NDkwMCw4MjgzMj
+Y2OTcsNjAzMjQ5NjUwLDE2MjcyMTcyMzgsMTM1NzUyNDA1NCwt
+MTEwNTQ0ODE2MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMD
+AzOTMxNSwyMDcwNjc3MjI0LDQ4OTYwMDYyNF19
 -->
