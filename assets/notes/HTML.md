@@ -19,16 +19,6 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
   </body>
 </html>               
 ```
-## Tips
-
-* Disable chrome autocomplete
-```html 
-<input autocomplete="off">
-```
-
-## `<small>` tag
-
-The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 
 ---
 - ALL **METADATA** ELEMENTS GOES INSIDE HEAD ELEMENT.
@@ -391,8 +381,8 @@ ctx.fillRect(10, 10, 150, 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjA5NzUwNywtODE5Nzk4NjgwLC0xMD
-M3ODM1NTUyLC00NzU1MzM4NjYsMjA3Mjg2ODY1OSw0NTIxMjc0
-ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgwOTAsMz
-c4Mzk3OTY2XX0=
+eyJoaXN0b3J5IjpbLTIwMDA1MTk2MCwxMjcyMDk3NTA3LC04MT
+k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
+NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
+c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
