@@ -30,7 +30,7 @@ Your css here
 
 
 ## Class
-    `In HTML
+    In HTML
     <p class="brand">sole shoe company</p>
 
     In CSS
@@ -996,11 +996,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkzNzM1OTAsNzE0NzMwNDEwLC05MD
-AzMTA0MjcsNzc0OTQ1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4
-LDEyNDA4OTg3MzMsMTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtND
-MyMTY4NTY1LDEwNTExODA5MjksLTc4MDg5MTE1OSwtNzgwODkx
-MTU5LC0yMDMzODQzMTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNC
-wtMTAxNzcxODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwx
-MDMzMTU2NDNdfQ==
+eyJoaXN0b3J5IjpbODAwMTM1NDE2LDcxNDczMDQxMCwtOTAwMz
+EwNDI3LDc3NDk0NTE0Myw0MTMzMTMwNzAsMTUxNjE5MjA5OCwx
+MjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4NzQsLTQzMj
+E2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1
+OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLT
+EwMTc3MTgwMTUsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAz
+MzE1NjQzXX0=
 -->
