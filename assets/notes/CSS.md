@@ -852,16 +852,6 @@ This means, when the device is screen, and the max screen width is 480px, only t
 ```
 
 
-## operators
-- and ---> code applies when all conditions after ‘and’ operator are met.
-- ,------- it is an ‘OR’ operator opposite to and.
-
-
-    @media only screen and (min-width: 480px), (orientation: landscape) {
-    
-    }
-
-
 ## Orientation
 
 The `orientation` media feature detects if the page has more width than height. If a page is wider, it's considered `landscape`, and if a page is taller, it's considered `portrait`.
@@ -1002,11 +992,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk3NjQzMzgsLTkwMDMxMDQyNyw3Nz
-Q5NDUxNDMsNDEzMzEzMDcwLDE1MTYxOTIwOTgsMTI0MDg5ODcz
-MywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00MzIxNjg1NjUsMT
-A1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTExNTksLTIwMzM4
-NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMDE3NzE4MD
-E1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMxNTY0Mywt
-MTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbNzE0NzMwNDEwLC05MDAzMTA0MjcsNzc0OT
+Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
+MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
+ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
+MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
+wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
+OTg5MTA2Nl19
 -->
