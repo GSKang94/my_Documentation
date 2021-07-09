@@ -706,12 +706,12 @@ The **shift()** method removes the **first** element from an array and returns t
 ## .unshift()
 
 The **unshift()** method adds one or more elements to the beginning of an array and returns the new length of the array.
-
+```js
     const groceryList = ['orange juice', 'bananas', 'coffee beans']
     groceryList.unshift('popcorn');
     //['popcorn','orange juice', 'bananas', 'coffee beans']
 
-
+```
 ## .concat()
 
 Used to concatenate two arrays
@@ -785,7 +785,6 @@ if (mutants.indexOf('Beast') > -1) {
   console.log('Beast is X-Men team member');
 }
 ```
-
 
 ## .replace()
 
@@ -869,7 +868,7 @@ console.log(a, b, c); // 1, 2, 5
 ## Spread operator(ES6)
 
 Add the elements of existing array into a new array.
-
+```js
     var petNames = ["mandy", "sheru", "annie"]
     var catNames = ["billi", "maano", ...petNames, "cat"]
     console.log(catNames);
@@ -879,6 +878,7 @@ Add the elements of existing array into a new array.
 - We can also copy arrays
     var arr2 = [...arr1];
     
+```
 ## Rest operator
 
 In array destructuring, if we want to collect the rest of the elements into a seperate array.
@@ -1829,7 +1829,7 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU2NTA4MywtMTE1MTA3Nzk4OSwtMT
+eyJoaXN0b3J5IjpbLTczMDMzMzQ1OSwtMTE1MTA3Nzk4OSwtMT
 c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
 MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
 0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
