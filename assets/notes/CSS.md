@@ -216,10 +216,12 @@ In above declaration, Color is property and blue is value of declaration.
 
 ## Viewport
     The viewport is the area of your browser where actual content is displayed - in other words your web browser without its toolbars and buttons. The units are vw, vh, vmin and vmax. They all represent a percentage of the browser (viewport) dimensions and scale accordingly on window resize.
+    
 ## Opacity (0-1)
     h1 {
       opacity: 0.5;
     }
+    
 ## Background Image
 ```css
 p {
@@ -245,7 +247,7 @@ When percentages are used to size width and height, child elements will be sized
 
 ## Scaling images and Videos
 
-To make them more resposive.
+To make them more responsive.
 
     The common code snippet widely used is:
     .container {
@@ -977,10 +979,10 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTgxOTEyMyw0MTMzMTMwNzAsMTUxNj
-E5MjA5OCwxMjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4
-NzQsLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLT
-c4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMw
-NTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQyODczMjQsLTE2NTUzMD
-AzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
+eyJoaXN0b3J5IjpbNzc0OTQ1MTQzLDQxMzMxMzA3MCwxNTE2MT
+kyMDk4LDEyNDA4OTg3MzMsMTA0NDYzOTkzMywtMTM3NDI3Njg3
+NCwtNDMyMTY4NTY1LDEwNTExODA5MjksLTc4MDg5MTE1OSwtNz
+gwODkxMTU5LC0yMDMzODQzMTc2LDE2MzE1MzQxNTAsLTM3MzA1
+ODMyNCwtMTAxNzcxODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMD
+MwMSwxMDMzMTU2NDMsLTEyOTg5MTA2Nl19
 -->
