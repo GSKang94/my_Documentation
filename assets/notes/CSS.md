@@ -6,7 +6,6 @@ https://adam-marsden.co.uk/css-cheat-sheet
 
 
 
-
 ## inline style in  HTML
 
     <p style="color:red; font-size:20 px;">
@@ -980,7 +979,7 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDg0NzU0OCw0MTMzMTMwNzAsMTUxNj
+eyJoaXN0b3J5IjpbMjExNzY1NTgzMCw0MTMzMTMwNzAsMTUxNj
 E5MjA5OCwxMjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4
 NzQsLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLT
 c4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMw
