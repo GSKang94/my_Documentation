@@ -1,11 +1,6 @@
-## JS Cheatsheet
 
-https://mbeaudru.github.io/modern-js-cheatsheet/ 
-
-## ES6 Cheatsheet
-
-http://www.developer-cheatsheets.com/es6
-[Cheatsheet-1]()
+[Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/ )
+[ES-6 CheatSheet](http://www.developer-cheatsheets.com/es6)
 
 ## Add external js file
 ```js
@@ -1832,11 +1827,11 @@ let padToThree = (number) =>(number <= 999 ? `00${number}`.slice(-3):number);
 
 To prevent the default form submit behavior which will refresh the web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDU4MDE5MiwtMTE1MTA3Nzk4OSwtMT
-c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
-MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
-0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
-NzIwNjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NC
-wtOTAzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIw
-NTAxOV19
+eyJoaXN0b3J5IjpbLTEyOTcxNDg5MjMsLTExNTEwNzc5ODksLT
+E3OTg2ODU5MjIsLTEwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4
+MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NC
+wtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4
+MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1Nz
+QsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03Nzgy
+MDUwMTldfQ==
 -->
