@@ -1477,6 +1477,7 @@ toDo.addEventListener("keydown", function() {
 ## parentNode
 
 → To do something with the parent of a child element.
+```js
 
     // remove the todo after hitting <span>.
     var spans = document.querySelectorAll("span");
@@ -1486,7 +1487,7 @@ toDo.addEventListener("keydown", function() {
             })
     }
 
-
+```
 ## appendChild
 
 → To join parent with their current or future child.
@@ -1567,10 +1568,6 @@ let Rectangle = class Rectangle2 {
 ```
 
 * Their must be only one custructor method per class.
-
-
-
-
 
 ## ‘New’ Operator
 
@@ -1753,8 +1750,6 @@ async function getInfo() {
 
 ```
 
-
-
 ### padding a number
 ```js
 let str = "5";  
@@ -1829,11 +1824,11 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDMzMzQ1OSwtMTE1MTA3Nzk4OSwtMT
-c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
-MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
-0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
-NzIwNjEsNjU3MDE3NzUyLC02ODMyNzQ5NDcsLTkzNjU0MTU3NC
-wtOTAzNjY2NjQ4LDkyODY1Mzc1Nyw3ODcyNzYzMjMsLTc3ODIw
-NTAxOV19
+eyJoaXN0b3J5IjpbLTExMjM4NTQ5NzYsLTExNTEwNzc5ODksLT
+E3OTg2ODU5MjIsLTEwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4
+MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NC
+wtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4
+MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1Nz
+QsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03Nzgy
+MDUwMTldfQ==
 -->
