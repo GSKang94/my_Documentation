@@ -251,7 +251,7 @@ When percentages are used to size width and height, child elements will be sized
 ## Scaling images and Videos
 
 To make them more responsive.
-
+```css
   The common code snippet widely used is:
     
     .container {
@@ -264,11 +264,15 @@ To make them more responsive.
       height: auto;
       display: block;
     }
+    
+```
 ## Height and Width of content
+```css
     p {
       height: 80px;
       width: 240px;
     }
+```
 ## Border
 - **Width**---thin,medium and thick.
 - **Style**----10 styles eg. none,dotted and solid.
@@ -983,11 +987,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU3MTc5NjQsLTkwMDMxMDQyNyw3Nz
-Q5NDUxNDMsNDEzMzEzMDcwLDE1MTYxOTIwOTgsMTI0MDg5ODcz
-MywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00MzIxNjg1NjUsMT
-A1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTExNTksLTIwMzM4
-NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMDE3NzE4MD
-E1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMxNTY0Mywt
-MTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbLTI1NDA2NTY3NiwtOTAwMzEwNDI3LDc3ND
+k0NTE0Myw0MTMzMTMwNzAsMTUxNjE5MjA5OCwxMjQwODk4NzMz
+LDEwNDQ2Mzk5MzMsLTEzNzQyNzY4NzQsLTQzMjE2ODU2NSwxMD
+UxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1OSwtMjAzMzg0
+MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLTEwMTc3MTgwMT
+UsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAzMzE1NjQzLC0x
+Mjk4OTEwNjZdfQ==
 -->
