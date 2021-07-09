@@ -1,5 +1,6 @@
 
-[CheatSheet](http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
+[CheatSheet-1](http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
+[CheatSheet-2](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet)
 
 
  **HTML** provides structure to the content.
@@ -393,7 +394,7 @@ NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
 c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI5MDMwMSwyMDQ1NDM4MjU1LDEyNz
+eyJoaXN0b3J5IjpbMTAzMTYzMzYwMCwyMDQ1NDM4MjU1LDEyNz
 IwOTc1MDcsLTgxOTc5ODY4MCwtMTAzNzgzNTU1MiwtNDc1NTMz
 ODY2LDIwNzI4Njg2NTksNDUyMTI3NDgzLDIwNjg1ODc4ODksOD
 A2OTU3ODE5LC0xNzk2NTQ4MDkwLDM3ODM5Nzk2Nl19
