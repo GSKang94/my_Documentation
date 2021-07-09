@@ -26,7 +26,7 @@
    “Charlie”   +   ”brown”  //Concatenation 
    ```
 
-- * Boolea*: True or false
+- Boolean: True or false
 - null means non-existent
 - undentified (Means the value is not defined.)
 ---
@@ -42,7 +42,7 @@ tab
 'Charlie\tBrown'         
 ```
 ## Check if num. is positive/negative
-`Math.sign(num)`
+```js Math.sign(num)```
 
 ## Convert Non-number
 ```js
@@ -1828,7 +1828,7 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzkwMzc0NSwtMTE1MTA3Nzk4OSwtMT
+eyJoaXN0b3J5IjpbMTU0OTYyMzUxNiwtMTE1MTA3Nzk4OSwtMT
 c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
 MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
 0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
