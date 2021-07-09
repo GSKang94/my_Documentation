@@ -8,31 +8,21 @@
     
 ## style Tag in HTML
 - Must be placed inside the head element.
-
+```html
+<style>
+Your css here
+</style>
+```
 
 ## Link element
 - used to link HTML with CSS
 - Must be placed inside head tag of HTML
-```css
+```html
     <link
     href="link to .css file"
     type="text/css"
     rel="stylesheet">
 ```
-
-## px,em and rem
-
-essential to learn responsive design.
-
-- **px----** are the hard coded values of size.
-- **em----** represents the size of the base font being used. For example, if the base font of a browser is 16 pixels (which is normally the default size of text in a browser), then 1 em is equal to 16 pixels. 2 ems would equal 32 pixels, and so on.
-- **rem----** stands for *root em*. It acts similar to em, but instead of checking parent elements to size font, it checks the *root element*. The root element is the `<html>` tag.
-    To change root font:
-    html {
-    font-size: 20px; (16 is default)
-    }
-- One advantage of using rems is that all elements are compared to the same font size value, making it easy to predict how large or small font will appear. If you are interested in sizing elements consistently across an entire website, the rem measurement is the best unit for the job. If you're interested in sizing elements in comparison to other elements nearby, then the em unit would be better suited for the job.
-
 
 ## Tag name
     p{
@@ -42,6 +32,7 @@ essential to learn responsive design.
 ## Class
     In HTML
     <p class="brand">sole shoe company</p>
+
     In CSS
     .brand{
           }
@@ -549,6 +540,19 @@ Local fonts can be added to a document with the `@font-face` property and the pa
     }
    
 ```
+## px,em and rem
+
+essential to learn responsive design.
+
+- **px----** are the hard coded values of size.
+- **em----** represents the size of the base font being used. For example, if the base font of a browser is 16 pixels (which is normally the default size of text in a browser), then 1 em is equal to 16 pixels. 2 ems would equal 32 pixels, and so on.
+- **rem----** stands for *root em*. It acts similar to em, but instead of checking parent elements to size font, it checks the *root element*. The root element is the `<html>` tag.
+    To change root font:
+    html {
+    font-size: 20px; (16 is default)
+    }
+- One advantage of using rems is that all elements are compared to the same font size value, making it easy to predict how large or small font will appear. If you are interested in sizing elements consistently across an entire website, the rem measurement is the best unit for the job. If you're interested in sizing elements in comparison to other elements nearby, then the em unit would be better suited for the job.
+
 ## Font-weight II
 ```css
     font-weight: 100 to 900; (only multiples of 100.)
@@ -992,11 +996,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NzMwNDEwLC05MDAzMTA0MjcsNzc0OT
-Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
-MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
-ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
-MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
-wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
-OTg5MTA2Nl19
+eyJoaXN0b3J5IjpbODAwMTM1NDE2LDcxNDczMDQxMCwtOTAwMz
+EwNDI3LDc3NDk0NTE0Myw0MTMzMTMwNzAsMTUxNjE5MjA5OCwx
+MjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4NzQsLTQzMj
+E2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLTc4MDg5MTE1
+OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMwNTgzMjQsLT
+EwMTc3MTgwMTUsLTE2MzQyODczMjQsLTE2NTUzMDAzMDEsMTAz
+MzE1NjQzXX0=
 -->

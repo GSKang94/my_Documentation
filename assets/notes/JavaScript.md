@@ -11,8 +11,7 @@
 
 
 - **Numbers:** 3,   -3,   3.4
-
-  ```
+ ```
    3 + 4   ,     3*4    ,    3/4   ,  3   %   4 (modulo operator use to  find remainder)
    N.B-- In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by `2`.
    + , - etc. are called arithmetic operators.
@@ -22,7 +21,7 @@
 
 - **Strings:** ”Hello world” , ‘34’
 
-   ```js
+ ```js
    “Charlie”   +   ”brown”  //Concatenation 
    ```
 
@@ -1824,11 +1823,11 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM4NTQ5NzYsLTExNTEwNzc5ODksLT
-E3OTg2ODU5MjIsLTEwMDc2NTM4NSwzNzkwOTI4NzAsMTEzODY4
-MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNTQsLTM2ODk0NDc1NC
-wtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2Njk5NzgxNywxOTA4
-MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OTQ3LC05MzY1NDE1Nz
-QsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3Mjc2MzIzLC03Nzgy
-MDUwMTldfQ==
+eyJoaXN0b3J5IjpbLTE3ODEwNzQxMjIsLTExMjM4NTQ5NzYsLT
+ExNTEwNzc5ODksLTE3OTg2ODU5MjIsLTEwMDc2NTM4NSwzNzkw
+OTI4NzAsMTEzODY4MjEwMCwtNTgyNTYzNTg1LDE1MjE0OTEzNT
+QsLTM2ODk0NDc1NCwtMTcyODY0OTEzMiwxNTQ3MDE0MDU0LDk2
+Njk5NzgxNywxOTA4MzcyMDYxLDY1NzAxNzc1MiwtNjgzMjc0OT
+Q3LC05MzY1NDE1NzQsLTkwMzY2NjY0OCw5Mjg2NTM3NTcsNzg3
+Mjc2MzIzXX0=
 -->
