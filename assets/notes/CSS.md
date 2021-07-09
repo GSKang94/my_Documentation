@@ -4,128 +4,8 @@ https://learn-the-web.algonquindesign.ca/topics/css-selectors-units-cheat-sheet/
 
 https://adam-marsden.co.uk/css-cheat-sheet
 
-## Tips
-
-* Sticky hover state problem on touch screen 
-```css
-@media (hover: hover)  { 
- button:hover { 
-  border:  3px solid green;  
-	}  
-}
-```
-* Hide white space on right side of page
-
-  ```css
-  body{
-      overflow-x: hidden;
-  }
-  ```
-
-* Remove bullet from ul
-
-  ```css
-  list-style-type: none;
-  ```
 
 
-* Increase size on hover
-
-  ```css
-  -webkit-transform: scale(1.2);
-  ```
-* Remove link color
-```css
-a{
-   color:inherit;
-}
-```
-* Hide placeholder on focus
-```css
-input:focus::placeholder {
-	color: transparent;
-}
-```
-
-## Add border gradient
- ```css
-{
-   background: linear-gradient(#900c3f, #900c3f),
-
-   linear-gradient(to right, #900c3f, #fa7d09);
-
-   background-origin: padding-box, border-box;
-
-   background-repeat: no-repeat; /* this is important */
-
-   border: 4px solid transparent;
-}
-```
-## Dark mode
-HTML
-```html
-<div class="dark-theme || light-theme">
-
-   <button class="btn-toggle">Toggle Dark Mode</button>
-
-</div>
-```
-CSS
-```css
-div.dark-theme {
-   color: #eee;
-   background: #121212;
-}
-
-div.dark-theme a {
-   color: #809fff;
-} 
-```
-JS
-```js
- //Select the button
-const btn = document.querySelector('.btn-toggle');
-
-//Listen for a click on the button
-btn.addEventListener('click', function () {
-//Then toggle (add/remove) the .dark-theme class  to  the  body
-   document.body.classList.toggle('dark-theme');
-})
-```
-## Custom scrollbar
-```css
-::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-    background: #000;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #393812;
-    -webkit-border-radius: 1ex;
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-}
-
-::-webkit-scrollbar-corner {
-    background: #000;
-}
-```
-## Disable text selection
-`user-select:none;`
-
-## Disable input spinner
-```css
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-	-webkit-appearance: none;
-	 margin: 0;
-}
-```
-## Disable autocomplete
-`<form autocomplete="off">`
-
-## prevent submit button page refreshing
-`<form onsubmit="return  false">`
 
 ## inline style in  HTML
 
@@ -976,11 +856,134 @@ div:first-of-type {
 # Animation
 
 [Full Lession](https://thoughtbot.com/blog/css-animation-for-beginners)
+
+## Tips
+
+* Sticky hover state problem on touch screen 
+```css
+@media (hover: hover)  { 
+ button:hover { 
+  border:  3px solid green;  
+	}  
+}
+```
+* Hide white space on right side of page
+
+  ```css
+  body{
+      overflow-x: hidden;
+  }
+  ```
+
+* Remove bullet from ul
+
+  ```css
+  list-style-type: none;
+  ```
+
+
+* Increase size on hover
+
+  ```css
+  -webkit-transform: scale(1.2);
+  ```
+* Remove link color
+```css
+a{
+   color:inherit;
+}
+```
+* Hide placeholder on focus
+```css
+input:focus::placeholder {
+	color: transparent;
+}
+```
+
+## Add border gradient
+ ```css
+{
+   background: linear-gradient(#900c3f, #900c3f),
+
+   linear-gradient(to right, #900c3f, #fa7d09);
+
+   background-origin: padding-box, border-box;
+
+   background-repeat: no-repeat; /* this is important */
+
+   border: 4px solid transparent;
+}
+```
+## Dark mode
+HTML
+```html
+<div class="dark-theme || light-theme">
+
+   <button class="btn-toggle">Toggle Dark Mode</button>
+
+</div>
+```
+CSS
+```css
+div.dark-theme {
+   color: #eee;
+   background: #121212;
+}
+
+div.dark-theme a {
+   color: #809fff;
+} 
+```
+JS
+```js
+ //Select the button
+const btn = document.querySelector('.btn-toggle');
+
+//Listen for a click on the button
+btn.addEventListener('click', function () {
+//Then toggle (add/remove) the .dark-theme class  to  the  body
+   document.body.classList.toggle('dark-theme');
+})
+```
+## Custom scrollbar
+```css
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+```
+## Disable text selection
+`user-select:none;`
+
+## Disable input spinner
+```css
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	 margin: 0;
+}
+```
+## Disable autocomplete
+`<form autocomplete="off">`
+
+## prevent submit button page refreshing
+`<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMzEzMDcwLDE1MTYxOTIwOTgsMTI0MD
-g5ODczMywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00MzIxNjg1
-NjUsMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTExNTksLT
-IwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC0xMDE3
-NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEwMzMxNT
-Y0MywtMTI5ODkxMDY2XX0=
+eyJoaXN0b3J5IjpbLTc2NDg0NzU0OCw0MTMzMTMwNzAsMTUxNj
+E5MjA5OCwxMjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4
+NzQsLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLT
+c4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMw
+NTgzMjQsLTEwMTc3MTgwMTUsLTE2MzQyODczMjQsLTE2NTUzMD
+AzMDEsMTAzMzE1NjQzLC0xMjk4OTEwNjZdfQ==
 -->
