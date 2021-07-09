@@ -19,16 +19,6 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
   </body>
 </html>               
 ```
-## Tips
-
-* Disable chrome autocomplete
-```html 
-<input autocomplete="off">
-```
-
-## `<small>` tag
-
-The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 
 ---
 - ALL **METADATA** ELEMENTS GOES INSIDE HEAD ELEMENT.
@@ -40,7 +30,6 @@ The  **HTML  `<small>`**  **element** represents side-comments and small print, 
 ```html
 <p lang="en-us"></p>
 ```
-
 Every attribute has a name (lang) and a value (en-us).
 
 ## insert image
@@ -67,7 +56,7 @@ Video not supported <!-- in case browser fail to play the video-->
 **SRC** means source code
 
 # Links
-## anchor external link 
+### anchor external link 
 ```html
 <a href=”hyperlink or file path” target=”value”>name of link</a>
 ```
@@ -80,7 +69,7 @@ Video not supported <!-- in case browser fail to play the video-->
          _top( open in full body of windows)
 
 
-## anchoring to relative page
+### anchoring to relative page
 
 Link relative web-pages within a same website.
 
@@ -89,7 +78,7 @@ Link relative web-pages within a same website.
 ```
 
 
-## anchor internal link (within site)
+### anchor internal link (within site)
 
 To anchor an internal link, you need to create an “id” first.
 
@@ -152,12 +141,12 @@ Or **ctrl+/**
     <form>
      </form>
     ```
-    ## Stop page reloading on submit button
+    ### Stop page reloading on submit button
     `<form  onsubmit="return  false">`
     
 
 ## **Form attributes**
-## action 
+### action 
 
 (submit your input form data to the servers)
 
@@ -167,14 +156,14 @@ Or **ctrl+/**
 </form>
 ```
 - action —where you want to submit form-data (Hyperlink)
-## method
+### method
 - method — what HTTP method (GET/POST).
-## Input type
+### Input type
 
 About 30 type of inputs we can give.
 Example: radio, text, password, color etc.
 
-## Text field 
+### Text field 
 
 self closing (like img)
 
@@ -183,7 +172,7 @@ self closing (like img)
 ```
 
 
-## Placeholder 
+### Placeholder 
 
 (text inside the field)
 
@@ -192,7 +181,7 @@ self closing (like img)
 ```
 
 
-## Label tag
+### Label tag
 - Add label to the input boxes.
 
 - Make a small container.
@@ -205,7 +194,7 @@ self closing (like img)
       <input type="text" placeholder="username">
     </label>
     ```
-## ADD accessibility
+### ADD accessibility
 
 it is considered as best practice to set a  for attribute on the label element. Also an id attribute should be set inside input element. value of for = id. This practice is must for assistive technologies.
 
@@ -215,13 +204,13 @@ it is considered as best practice to set a  for attribute on the label element. 
 ```
 
 
-## Form Validation
+### Form Validation
 * make text fields require to fill before submitting the form.
     ```<input type="text" required>```
 * We can also change the data type.
     ```<input type="email">```
     
-## submit button
+### submit button
 ```html
 <button type="submit">name of the button</button>
                  or
@@ -240,8 +229,6 @@ Example
 <label for="indoor">Indoor</label>
   <input id="indoor" type="radio" name="gamePrefer" value="indoor">
 ```
-
-
 ​     
 ```html
 <label for="outdoor">Outdoor</label>
@@ -286,33 +273,33 @@ just put “checked” inside input element.
 </select>
 ```
 ----------
-## <div> tag
+## div tag
 
 The <div> tag defines a division or a section in an HTML document. It is **block-level element.**
 
-## <span> tag
+## span tag
 
 Similar to div tag as it divide text into small pieces. It is an **inline element.**
 
 ----------
-## <em> <strong> and <blockquote> tags
-```html
-<!--The reason for using these sementic elements is that other programs,such as screen readers or search engines, can use this extra information. For example, the voice of a screen reader may add emphasis to the words inside the <em> element, or a search engine might register that your page features a quote if you use the <blockquote> element.-->
-```
+## em, strong and blockquote tags
 
-<em> for *italics.*
-<strong> for **Bold.**
+The reason for using these sementic elements is that other programs,such as screen readers or search engines, can use this extra information. For example, the voice of a screen reader may add emphasis to the words inside the <em> element, or a search engine might register that your page features a quote if you use the `<blockquote>` element.
 
-## <br>tag
+
+`<em>` for *italics.*
+`<strong>` for **Bold.**
+
+## br tag
 
 Line break
-only <br> element without closing tag.
+only` <br>` element without closing tag.
 (horizontal-rules) element  insert a horizontal line and used to sectionize a text page.
 
-## <hr> tag
-## <b> (Bold tag)
-## <i>  (Italics tag)
-## <q> (Quote tag)
+## `<hr>` tag
+## `<b>` (Bold tag)
+## `<i>`  (Italics tag)
+## `<q>` (Quote tag)
 
 
 ## Script tags
@@ -321,7 +308,7 @@ only <br> element without closing tag.
     CO<sub>2</sub>      <sub> is known as subscript.
 
 
-## <ins> and <del> tags
+## `<ins>` and `<del>` tags
     <p>It was the <del>worst</del> <ins>best</ins> idea
     she had ever had.</p>
     Result: It was the worst best idea she had ever had.
@@ -389,10 +376,19 @@ const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'green';
 ctx.fillRect(10, 10, 150, 100);
 ```
+## Tips
 
+* Disable chrome autocomplete
+```html 
+<input autocomplete="off">
+```
+
+## `<small>` tag
+
+The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjA5NzUwNywtODE5Nzk4NjgwLC0xMD
-M3ODM1NTUyLC00NzU1MzM4NjYsMjA3Mjg2ODY1OSw0NTIxMjc0
-ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLTE3OTY1NDgwOTAsMz
-c4Mzk3OTY2XX0=
+eyJoaXN0b3J5IjpbLTcyNzkxNDQ3MCwxMjcyMDk3NTA3LC04MT
+k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
+NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
+c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
