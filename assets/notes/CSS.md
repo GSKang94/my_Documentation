@@ -24,28 +24,15 @@ Your css here
     rel="stylesheet">
 ```
 
-## px,em and rem
-
-essential to learn responsive design.
-
-- **px----** are the hard coded values of size.
-- **em----** represents the size of the base font being used. For example, if the base font of a browser is 16 pixels (which is normally the default size of text in a browser), then 1 em is equal to 16 pixels. 2 ems would equal 32 pixels, and so on.
-- **rem----** stands for *root em*. It acts similar to em, but instead of checking parent elements to size font, it checks the *root element*. The root element is the `<html>` tag.
-    To change root font:
-    html {
-    font-size: 20px; (16 is default)
-    }
-- One advantage of using rems is that all elements are compared to the same font size value, making it easy to predict how large or small font will appear. If you are interested in sizing elements consistently across an entire website, the rem measurement is the best unit for the job. If you're interested in sizing elements in comparison to other elements nearby, then the em unit would be better suited for the job.
-
-
 ## Tag name
     p{
      }
 
 
 ## Class
-    In HTML
+    `In HTML
     <p class="brand">sole shoe company</p>
+
     In CSS
     .brand{
           }
@@ -553,6 +540,19 @@ Local fonts can be added to a document with the `@font-face` property and the pa
     }
    
 ```
+## px,em and rem
+
+essential to learn responsive design.
+
+- **px----** are the hard coded values of size.
+- **em----** represents the size of the base font being used. For example, if the base font of a browser is 16 pixels (which is normally the default size of text in a browser), then 1 em is equal to 16 pixels. 2 ems would equal 32 pixels, and so on.
+- **rem----** stands for *root em*. It acts similar to em, but instead of checking parent elements to size font, it checks the *root element*. The root element is the `<html>` tag.
+    To change root font:
+    html {
+    font-size: 20px; (16 is default)
+    }
+- One advantage of using rems is that all elements are compared to the same font size value, making it easy to predict how large or small font will appear. If you are interested in sizing elements consistently across an entire website, the rem measurement is the best unit for the job. If you're interested in sizing elements in comparison to other elements nearby, then the em unit would be better suited for the job.
+
 ## Font-weight II
 ```css
     font-weight: 100 to 900; (only multiples of 100.)
@@ -996,11 +996,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzYxMDk1Miw3MTQ3MzA0MTAsLTkwMD
-MxMDQyNyw3NzQ5NDUxNDMsNDEzMzEzMDcwLDE1MTYxOTIwOTgs
-MTI0MDg5ODczMywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00Mz
-IxNjg1NjUsMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTEx
-NTksLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC
-0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEw
-MzMxNTY0M119
+eyJoaXN0b3J5IjpbLTE3OTkzNzM1OTAsNzE0NzMwNDEwLC05MD
+AzMTA0MjcsNzc0OTQ1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4
+LDEyNDA4OTg3MzMsMTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtND
+MyMTY4NTY1LDEwNTExODA5MjksLTc4MDg5MTE1OSwtNzgwODkx
+MTU5LC0yMDMzODQzMTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNC
+wtMTAxNzcxODAxNSwtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwx
+MDMzMTU2NDNdfQ==
 -->
