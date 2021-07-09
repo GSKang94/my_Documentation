@@ -1,7 +1,6 @@
-## Cheat-sheets
 
-[CS-1](https://learn-the-web.algonquindesign.ca/topics/css-selectors-units-cheat-sheet/)
-[CS-2](https://adam-marsden.co.uk/css-cheat-sheet)
+[CheatSheet-1](https://learn-the-web.algonquindesign.ca/topics/css-selectors-units-cheat-sheet/)
+[CheatSheet-2](https://adam-marsden.co.uk/css-cheat-sheet)
 
 ## inline style in  HTML
 
@@ -976,7 +975,7 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTMyOTMyMyw0MTMzMTMwNzAsMTUxNj
+eyJoaXN0b3J5IjpbLTMwOTY3ODg0MSw0MTMzMTMwNzAsMTUxNj
 E5MjA5OCwxMjQwODk4NzMzLDEwNDQ2Mzk5MzMsLTEzNzQyNzY4
 NzQsLTQzMjE2ODU2NSwxMDUxMTgwOTI5LC03ODA4OTExNTksLT
 c4MDg5MTE1OSwtMjAzMzg0MzE3NiwxNjMxNTM0MTUwLC0zNzMw
