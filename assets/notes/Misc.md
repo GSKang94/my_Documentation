@@ -95,7 +95,6 @@ gzip on;
     listen 443 http2
 ```
 
-
 ## Nodemon
 
 Nodemon is a utility that will monitor for any changes in your source and automatically restart your server in node.js
@@ -177,8 +176,8 @@ module.exports  =  {
 },
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3OTg0NzgsLTc5NjM0NDkwMCw4MjgzMj
-Y2OTcsNjAzMjQ5NjUwLDE2MjcyMTcyMzgsMTM1NzUyNDA1NCwt
-MTEwNTQ0ODE2MywtNjY5Nzk3NzU5LDIwNzQzMjM3NjgsMTAzMD
-AzOTMxNSwyMDcwNjc3MjI0LDQ4OTYwMDYyNF19
+eyJoaXN0b3J5IjpbLTM2MDM2ODA2OCwtNzk2MzQ0OTAwLDgyOD
+MyNjY5Nyw2MDMyNDk2NTAsMTYyNzIxNzIzOCwxMzU3NTI0MDU0
+LC0xMTA1NDQ4MTYzLC02Njk3OTc3NTksMjA3NDMyMzc2OCwxMD
+MwMDM5MzE1LDIwNzA2NzcyMjQsNDg5NjAwNjI0XX0=
 -->
