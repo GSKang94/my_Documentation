@@ -30,7 +30,6 @@ http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 ```html
 <p lang="en-us"></p>
 ```
-
 Every attribute has a name (lang) and a value (en-us).
 
 ## insert image
@@ -57,7 +56,7 @@ Video not supported <!-- in case browser fail to play the video-->
 **SRC** means source code
 
 # Links
-## anchor external link 
+### anchor external link 
 ```html
 <a href=”hyperlink or file path” target=”value”>name of link</a>
 ```
@@ -70,7 +69,7 @@ Video not supported <!-- in case browser fail to play the video-->
          _top( open in full body of windows)
 
 
-## anchoring to relative page
+### anchoring to relative page
 
 Link relative web-pages within a same website.
 
@@ -79,7 +78,7 @@ Link relative web-pages within a same website.
 ```
 
 
-## anchor internal link (within site)
+### anchor internal link (within site)
 
 To anchor an internal link, you need to create an “id” first.
 
@@ -390,8 +389,8 @@ ctx.fillRect(10, 10, 150, 100);
 
 The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0MzU5MzcsMTI3MjA5NzUwNywtOD
-E5Nzk4NjgwLC0xMDM3ODM1NTUyLC00NzU1MzM4NjYsMjA3Mjg2
-ODY1OSw0NTIxMjc0ODMsMjA2ODU4Nzg4OSw4MDY5NTc4MTksLT
-E3OTY1NDgwOTAsMzc4Mzk3OTY2XX0=
+eyJoaXN0b3J5IjpbLTIwMDk1NjQzMCwxMjcyMDk3NTA3LC04MT
+k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
+NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
+c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
 -->
