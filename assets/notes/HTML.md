@@ -276,16 +276,16 @@ just put “checked” inside input element.
 </select>
 ```
 ----------
-## <div> tag
+## div tag
 
 The <div> tag defines a division or a section in an HTML document. It is **block-level element.**
 
-## <span> tag
+## span tag
 
 Similar to div tag as it divide text into small pieces. It is an **inline element.**
 
 ----------
-## <em> <strong> and <blockquote> tags
+## em, strong and blockquote tags
 ```html
 <!--The reason for using these sementic elements is that other programs,such as screen readers or search engines, can use this extra information. For example, the voice of a screen reader may add emphasis to the words inside the <em> element, or a search engine might register that your page features a quote if you use the <blockquote> element.-->
 ```
@@ -379,9 +379,18 @@ const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'green';
 ctx.fillRect(10, 10, 150, 100);
 ```
+## Tips
 
+* Disable chrome autocomplete
+```html 
+<input autocomplete="off">
+```
+
+## `<small>` tag
+
+The  **HTML  `<small>`**  **element** represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from  `small`  to  `x-small`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA1MTk2MCwxMjcyMDk3NTA3LC04MT
+eyJoaXN0b3J5IjpbLTEyNjYzNjU2NSwxMjcyMDk3NTA3LC04MT
 k3OTg2ODAsLTEwMzc4MzU1NTIsLTQ3NTUzMzg2NiwyMDcyODY4
 NjU5LDQ1MjEyNzQ4MywyMDY4NTg3ODg5LDgwNjk1NzgxOSwtMT
 c5NjU0ODA5MCwzNzgzOTc5NjZdfQ==
