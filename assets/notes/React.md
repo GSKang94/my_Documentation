@@ -388,8 +388,51 @@ handleChange(event) {
 //render
 <p>{this.state.input}</p>
 ```
+## Controlled Input
 
+Your application may have more complex interactions between state and the rendered UI. For example, form control elements for text input, such as input and textarea, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's state. The user's input becomes part of the application state, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
+
+## Handling multiple input fields (DRY)
+
+-   Make input fields with distinctive name attribute.
+-   Add a handleChange function to them onClick.
+-   Inside handleChange
+
+```jsx
+handleChange(e) {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  }
+
+```
+
+## Lifting state up
+
+```jsx
+function Parent() {
+  const [value, setValue] = React.useState("");
+
+  function handleChange(newValue) {
+    setValue(newValue);
+  }
+
+  // We pass a callback to MyInput
+  return <MyInput value={value} onChange={handleChange} />;
+}
+
+function MyInput(props) {
+  function handleChange(event) {
+    // Here, we invoke the callback with the new value
+    props.onChange(event.target.value);
+  }
+  
+  return <input value={props.value} onChange={handleChange} />
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTkxMTk4NCwxOTQyMjAyODM4LDc5MT
-EyMDQzLC0xODA4MTA5NzE0LC0xMDc5MTUxODc4XX0=
+eyJoaXN0b3J5IjpbMTI0MjY2MTQ1NiwtNTg5OTExOTg0LDE5ND
+IyMDI4MzgsNzkxMTIwNDMsLTE4MDgxMDk3MTQsLTEwNzkxNTE4
+NzhdfQ==
 -->
