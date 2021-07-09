@@ -8,12 +8,16 @@
     
 ## style Tag in HTML
 - Must be placed inside the head element.
-
+```html
+<style>
+Your css here
+</style>
+```
 
 ## Link element
 - used to link HTML with CSS
 - Must be placed inside head tag of HTML
-```css
+```html
     <link
     href="link to .css file"
     type="text/css"
@@ -992,11 +996,11 @@ input::-webkit-inner-spin-button {
 ## prevent submit button page refreshing
 `<form onsubmit="return  false">`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NzMwNDEwLC05MDAzMTA0MjcsNzc0OT
-Q1MTQzLDQxMzMxMzA3MCwxNTE2MTkyMDk4LDEyNDA4OTg3MzMs
-MTA0NDYzOTkzMywtMTM3NDI3Njg3NCwtNDMyMTY4NTY1LDEwNT
-ExODA5MjksLTc4MDg5MTE1OSwtNzgwODkxMTU5LC0yMDMzODQz
-MTc2LDE2MzE1MzQxNTAsLTM3MzA1ODMyNCwtMTAxNzcxODAxNS
-wtMTYzNDI4NzMyNCwtMTY1NTMwMDMwMSwxMDMzMTU2NDMsLTEy
-OTg5MTA2Nl19
+eyJoaXN0b3J5IjpbLTY4MzYxMDk1Miw3MTQ3MzA0MTAsLTkwMD
+MxMDQyNyw3NzQ5NDUxNDMsNDEzMzEzMDcwLDE1MTYxOTIwOTgs
+MTI0MDg5ODczMywxMDQ0NjM5OTMzLC0xMzc0Mjc2ODc0LC00Mz
+IxNjg1NjUsMTA1MTE4MDkyOSwtNzgwODkxMTU5LC03ODA4OTEx
+NTksLTIwMzM4NDMxNzYsMTYzMTUzNDE1MCwtMzczMDU4MzI0LC
+0xMDE3NzE4MDE1LC0xNjM0Mjg3MzI0LC0xNjU1MzAwMzAxLDEw
+MzMxNTY0M119
 -->
