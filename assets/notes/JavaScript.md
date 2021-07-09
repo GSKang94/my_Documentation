@@ -12,7 +12,7 @@
 
 - **Numbers:** 3,   -3,   3.4
 
-  ```js
+  ```
    3 + 4   ,     3*4    ,    3/4   ,  3   %   4 (modulo operator use to  find remainder)
    N.B-- In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by `2`.
    + , - etc. are called arithmetic operators.
@@ -26,7 +26,7 @@
    “Charlie”   +   ”brown”  //Concatenation 
    ```
 
-- Boolean: True or false
+- * Boolea*: True or false
 - null means non-existent
 - undentified (Means the value is not defined.)
 ---
@@ -1828,7 +1828,7 @@ window.onscroll  = () => {
 //add zeros for more decimal places
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzcxMjcyMCwtMTE1MTA3Nzk4OSwtMT
+eyJoaXN0b3J5IjpbMTE4NzkwMzc0NSwtMTE1MTA3Nzk4OSwtMT
 c5ODY4NTkyMiwtMTAwNzY1Mzg1LDM3OTA5Mjg3MCwxMTM4Njgy
 MTAwLC01ODI1NjM1ODUsMTUyMTQ5MTM1NCwtMzY4OTQ0NzU0LC
 0xNzI4NjQ5MTMyLDE1NDcwMTQwNTQsOTY2OTk3ODE3LDE5MDgz
